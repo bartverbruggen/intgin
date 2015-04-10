@@ -1,0 +1,44 @@
+{
+    "name": "ride/framework",
+    "type": "project",
+    "description": "The Ride framework.",
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "require": {
+        "ride/app-i18n-en": "*",
+        "ride/app-i18n-nl": "*",
+        "ride/app-media": "*",
+        "ride/cli-database": "*",
+        "ride/cli-orm": "*",
+        "ride/cli-web": "*",
+        "ride/cli-security": "*",
+        "ride/web-cms-security": "dev-master",
+        "ride/setup-cli": "*",
+        "ride/setup-web": "*",
+        "ride/web-base": "*",
+        "ride/web-cms": "*",
+        "ride/web-cms-layouts": "*",
+        "ride/web-cms-orm": "*",
+        "ride/web-cms-vcs": "*",
+        "ride/web-cms-widgets": "*",
+        "ride/web-documentation": "*",
+        "ride/web-orm": "*",
+        "ride/web-orm-taxonomy": "*",
+        "ride/web-security": "*",
+        "ride/web-security-orm": "*",
+        "statik/theme-fuel": "*",
+        "statik/web-security-oauth": "*",
+        "statik/web-form-wysiwyg-redactor": "*",
+
+        "oodle/krumo": "*",
+        "smarty/smarty": "dev-master#d3e26fb679081bc5f4427d86cb8d4275e835e094",
+        "ride/app-mail-mandrill": "*",
+        "ride/cli-app": "*"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://www.statik.be"
+        }
+    ]
+}
