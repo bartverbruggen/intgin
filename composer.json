@@ -6,7 +6,6 @@
     "minimum-stability": "dev",
     "require": {
         "ride/app-i18n-en": "*",
-        "ride/app-i18n-nl": "*",
         "ride/app-media": "*",
         "ride/cli-database": "*",
         "ride/cli-orm": "*",
@@ -33,7 +32,8 @@
         "oodle/krumo": "*",
         "smarty/smarty": "dev-master#d3e26fb679081bc5f4427d86cb8d4275e835e094",
         "ride/app-mail-mandrill": "*",
-        "ride/cli-app": "*"
+        "ride/cli-app": "*",
+        "ride/wba-cms-assets": "dev-master"
     },
     "repositories": [
         {

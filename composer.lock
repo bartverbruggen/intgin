@@ -1,0 +1,4008 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "34114ce40baae5a9b51f9c0d6a4f7645",
+    "packages": [
+        {
+            "name": "mandrill/mandrill",
+            "version": "1.0.48",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/mailchimp/mandrill-api-php.git",
+                "reference": "76f11ff05a4283c8e500248c6f4f183219752bf8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/mailchimp/mandrill-api-php/get/76f11ff05a4283c8e500248c6f4f183219752bf8.zip",
+                "reference": "76f11ff05a4283c8e500248c6f4f183219752bf8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mandrill": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Mandrill Devs",
+                    "email": "community@mandrill.com",
+                    "homepage": "http://mandrill.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "API client library for the Mandrill email as a service platform",
+            "homepage": "https://bitbucket.org/mailchimp/mandrill-api-php",
+            "keywords": [
+                "api",
+                "email"
+            ],
+            "time": "2013-09-13 21:19:15"
+        },
+        {
+            "name": "michelf/php-markdown",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michelf/php-markdown.git",
+                "reference": "e1aabe18173231ebcefc90e615565742fc1c7fd9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/e1aabe18173231ebcefc90e615565742fc1c7fd9",
+                "reference": "e1aabe18173231ebcefc90e615565742fc1c7fd9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-lib": "1.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Michelf": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "John Gruber",
+                    "homepage": "http://daringfireball.net/"
+                },
+                {
+                    "name": "Michel Fortin",
+                    "email": "michel.fortin@michelf.ca",
+                    "homepage": "https://michelf.ca/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP Markdown",
+            "homepage": "https://michelf.ca/projects/php-markdown/",
+            "keywords": [
+                "markdown"
+            ],
+            "time": "2015-03-01 12:03:08"
+        },
+        {
+            "name": "oodle/krumo",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/oodle/krumo.git",
+                "reference": "ba46a8b187dab2a7077e101f0f0ef2ff5ab52e9d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/oodle/krumo/zipball/ba46a8b187dab2a7077e101f0f0ef2ff5ab52e9d",
+                "reference": "ba46a8b187dab2a7077e101f0f0ef2ff5ab52e9d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.17"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "class.krumo.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Kaloyan K. Tsvetkov",
+                    "email": "kaloyan@kaloyan.info"
+                },
+                {
+                    "name": "Matthew J. Mucklo",
+                    "email": "mmucklo@corp.oodle.com"
+                },
+                {
+                    "name": "Stefan Thomas",
+                    "email": "moon@justmoon.de"
+                }
+            ],
+            "description": "KRUMO - version 2.0 of print_r(); and var_dump(); (with new updates)",
+            "keywords": [
+                "debug",
+                "debugging",
+                "krumo",
+                "pretty",
+                "print",
+                "print_r",
+                "var_dump"
+            ],
+            "time": "2015-04-09 07:45:00"
+        },
+        {
+            "name": "ride/app",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-app.git",
+                "reference": "1fbafdcb32e710fadcd2e7a353ea3e8c53c0c382"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-app/zipball/1fbafdcb32e710fadcd2e7a353ea3e8c53c0c382",
+                "reference": "1fbafdcb32e710fadcd2e7a353ea3e8c53c0c382",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-common": ">=0.4.3",
+                "ride/lib-config": ">=0.2.0",
+                "ride/lib-dependency": ">=0.7.0",
+                "ride/lib-event": ">=0.3.0",
+                "ride/lib-log": ">=0.3.0",
+                "ride/lib-reflection": ">=0.3.0",
+                "ride/lib-system": ">=0.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\application\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                },
+                {
+                    "name": "Ward Brems",
+                    "email": "ward@statik.be"
+                }
+            ],
+            "description": "Base integration of the Ride framework libraries",
+            "time": "2015-03-27 10:18:31"
+        },
+        {
+            "name": "ride/app-api",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-app-api.git",
+                "reference": "60548ddeb331c6a214f45affbff65d40d0eec682"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-app-api/zipball/60548ddeb331c6a214f45affbff65d40d0eec682",
+                "reference": "60548ddeb331c6a214f45affbff65d40d0eec682",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app": ">=0.4.0",
+                "ride/lib-api": ">=0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\api\\io\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Integration of the API library for a Ride application.",
+            "time": "2014-02-23 20:10:33"
+        },
+        {
+            "name": "ride/app-database",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-app-database.git",
+                "reference": "66087d67575ebf46cd7ed34f7e5c56fec1d8c88f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-app-database/zipball/66087d67575ebf46cd7ed34f7e5c56fec1d8c88f",
+                "reference": "66087d67575ebf46cd7ed34f7e5c56fec1d8c88f",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app": ">=0.3.0",
+                "ride/lib-config": ">=0.2.0",
+                "ride/lib-database": ">=0.1.0",
+                "ride/lib-dependency": ">=0.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\application\\database\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Database integration for a Ride application.",
+            "time": "2014-10-29 11:25:17"
+        },
+        {
+            "name": "ride/app-form",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-app-form.git",
+                "reference": "8875ca492c6bd464b3d482d98495cd667fea284b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-app-form/zipball/8875ca492c6bd464b3d482d98495cd667fea284b",
+                "reference": "8875ca492c6bd464b3d482d98495cd667fea284b",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app": ">=0.4.14",
+                "ride/app-validation": ">=0.4.0",
+                "ride/lib-dependency": ">=0.6.0",
+                "ride/lib-form": ">=0.10.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\application\\form\\row\\factory\\DependencyRowFactory": [
+                        "src/"
+                    ],
+                    "ride\\application\\validation\\validator\\ImageValidator": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Integration of the form library for a Ride application.",
+            "time": "2014-08-08 16:32:13"
+        },
+        {
+            "name": "ride/app-i18n",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-app-i18n.git",
+                "reference": "9119fa196a5d4714717ba97cc649597d7751de05"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-app-i18n/zipball/9119fa196a5d4714717ba97cc649597d7751de05",
+                "reference": "9119fa196a5d4714717ba97cc649597d7751de05",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app": ">=0.4.0",
+                "ride/lib-i18n": ">=0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\application\\cache\\control\\": [
+                        "src/",
+                        "test/src/"
+                    ],
+                    "ride\\application\\i18n\\": [
+                        "src/",
+                        "test/src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Integration of the i18n library for a Ride application.",
+            "time": "2014-11-20 20:20:47"
+        },
+        {
+            "name": "ride/app-i18n-en",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-app-i18n-en.git",
+                "reference": "4ab1adeb2db3c4bbaed47d0e9c32fa31a6f50510"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-app-i18n-en/zipball/4ab1adeb2db3c4bbaed47d0e9c32fa31a6f50510",
+                "reference": "4ab1adeb2db3c4bbaed47d0e9c32fa31a6f50510",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app": ">=0.4.0",
+                "ride/app-i18n": ">=0.1.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "English locale for a Ride application.",
+            "time": "2014-02-21 11:54:58"
+        },
+        {
+            "name": "ride/app-image",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-app-image.git",
+                "reference": "512bc313d61b75e7e52b9a7681276d56c4f8fb10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-app-image/zipball/512bc313d61b75e7e52b9a7681276d56c4f8fb10",
+                "reference": "512bc313d61b75e7e52b9a7681276d56c4f8fb10",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app": ">=0.4.0",
+                "ride/lib-image": ">=0.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\application\\image\\DependencyImageFactory": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Image library integration for a Ride application",
+            "time": "2014-09-25 16:12:10"
+        },
+        {
+            "name": "ride/app-mail",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-app-mail.git",
+                "reference": "97dee3f91d0b818d54b1006ff31fa89ad01dbbf6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-app-mail/zipball/97dee3f91d0b818d54b1006ff31fa89ad01dbbf6",
+                "reference": "97dee3f91d0b818d54b1006ff31fa89ad01dbbf6",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app": ">=0.4.0",
+                "ride/lib-mail": ">=0.1.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Integration of the mail library for a Ride application.",
+            "time": "2014-03-30 18:49:12"
+        },
+        {
+            "name": "ride/app-mail-mandrill",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-app-mail-mandrill.git",
+                "reference": "61e59d6e63be00ecee7a4fa7d0f3c464584e9c21"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-app-mail-mandrill/zipball/61e59d6e63be00ecee7a4fa7d0f3c464584e9c21",
+                "reference": "61e59d6e63be00ecee7a4fa7d0f3c464584e9c21",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app": ">=0.4.0",
+                "ride/lib-mail-mandrill": ">=0.1.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Mandrill Integration of the mail library for a Ride application.",
+            "time": "2014-06-20 09:50:56"
+        },
+        {
+            "name": "ride/app-markdown",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-app-markdown.git",
+                "reference": "020935a27eefd23e0b27ce381e82224fb42f17cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-app-markdown/zipball/020935a27eefd23e0b27ce381e82224fb42f17cb",
+                "reference": "020935a27eefd23e0b27ce381e82224fb42f17cb",
+                "shasum": ""
+            },
+            "require": {
+                "michelf/php-markdown": "*",
+                "ride/lib-common": ">=0.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\decorator\\MarkdownDecorator": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Ride decorator to parse markdown formatted text into HTML.",
+            "time": "2015-01-09 11:27:59"
+        },
+        {
+            "name": "ride/app-media",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-app-media.git",
+                "reference": "2498cdeb8d78d52f330ffb6d98e03d060b245a34"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-app-media/zipball/2498cdeb8d78d52f330ffb6d98e03d060b245a34",
+                "reference": "2498cdeb8d78d52f330ffb6d98e03d060b245a34",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app-validation": ">=0.2.0",
+                "ride/lib-dependency": ">=0.5.0",
+                "ride/lib-media": ">=0.2.0",
+                "ride/lib-validation": ">=0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\application\\media\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Integration of the media library for a Ride application.",
+            "time": "2014-12-15 17:36:47"
+        },
+        {
+            "name": "ride/app-orm",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-app-orm.git",
+                "reference": "b3ee2b0b6947254a2785e10a328b42f00d2e497a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-app-orm/zipball/b3ee2b0b6947254a2785e10a328b42f00d2e497a",
+                "reference": "b3ee2b0b6947254a2785e10a328b42f00d2e497a",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app": ">=0.4.0",
+                "ride/app-database": ">=0.1.0",
+                "ride/lib-database": ">=0.1.0",
+                "ride/lib-dependency": ">=0.5.5",
+                "ride/lib-i18n": ">=0.1.0",
+                "ride/lib-log": ">=0.2.0",
+                "ride/lib-orm": ">=0.6.3",
+                "ride/lib-reflection": ">=0.4.0",
+                "ride/lib-security": ">=0.1.0",
+                "ride/lib-system": ">=0.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\application\\cache\\control\\": [
+                        "src/"
+                    ],
+                    "ride\\application\\orm\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "ORM integration for a Ride application.",
+            "time": "2015-04-08 11:51:36"
+        },
+        {
+            "name": "ride/app-orm-asset",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-app-orm-asset.git",
+                "reference": "805229788eefccafb9a9f5788127e0ff32f7f51e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-app-orm-asset/zipball/805229788eefccafb9a9f5788127e0ff32f7f51e",
+                "reference": "805229788eefccafb9a9f5788127e0ff32f7f51e",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app-media": ">=0.2.0",
+                "ride/app-orm": ">=0.1.0",
+                "ride/lib-http": ">=0.2.1",
+                "ride/lib-i18n": ">=0.1.0",
+                "ride/lib-image": ">=0.2.0",
+                "ride/lib-media": ">=0.1.0",
+                "ride/lib-orm": ">=0.1.0",
+                "ride/lib-system": ">=0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\application\\orm\\asset\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                },
+                {
+                    "name": "Ward Brems",
+                    "email": "ward@statik.be"
+                }
+            ],
+            "description": "Assets model for the Ride ORM",
+            "time": "2015-04-10 06:46:56"
+        },
+        {
+            "name": "ride/app-orm-taxonomy",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-app-orm-taxonomy.git",
+                "reference": "005a9161304be1434de94cc2c3dbafba061928c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-app-orm-taxonomy/zipball/005a9161304be1434de94cc2c3dbafba061928c6",
+                "reference": "005a9161304be1434de94cc2c3dbafba061928c6",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app-orm": ">=0.2.0",
+                "ride/lib-orm": ">=0.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\application\\orm\\model\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Taxonomy model for the Ride ORM.",
+            "time": "2015-04-08 11:48:46"
+        },
+        {
+            "name": "ride/app-template",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-app-template.git",
+                "reference": "d539b5ea3cc890fdd371e1b9f7de9dce274090e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-app-template/zipball/d539b5ea3cc890fdd371e1b9f7de9dce274090e8",
+                "reference": "d539b5ea3cc890fdd371e1b9f7de9dce274090e8",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app": ">=0.4.0",
+                "ride/lib-dependency": ">=0.5.0",
+                "ride/lib-template": ">=0.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\application\\template\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Integration of the template library for a Ride application.",
+            "time": "2014-04-27 12:20:29"
+        },
+        {
+            "name": "ride/app-template-smarty",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-app-template-smarty.git",
+                "reference": "ec3a642c48b3346f6fcadbba77c2177d0565dc73"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-app-template-smarty/zipball/ec3a642c48b3346f6fcadbba77c2177d0565dc73",
+                "reference": "ec3a642c48b3346f6fcadbba77c2177d0565dc73",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app": ">=0.4.0",
+                "ride/app-template": ">=0.1.0",
+                "ride/lib-template-smarty": ">=0.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\application\\cache\\control\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Smarty template engine integration for a Ride application.",
+            "time": "2015-01-14 18:36:31"
+        },
+        {
+            "name": "ride/app-validation",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-app-validation.git",
+                "reference": "3e39db11e522fa4210fcfcde31efd6814bb1ed64"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-app-validation/zipball/3e39db11e522fa4210fcfcde31efd6814bb1ed64",
+                "reference": "3e39db11e522fa4210fcfcde31efd6814bb1ed64",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app": ">=0.4.0",
+                "ride/lib-dependency": ">=0.5.0",
+                "ride/lib-validation": ">=0.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\application\\validation\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Integration of the validation library for a Ride application.",
+            "time": "2014-08-21 09:36:10"
+        },
+        {
+            "name": "ride/app-vcs",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-app-vcs.git",
+                "reference": "8d09e1c3fbc42ac7044675dfe9d6dbaa8d64270c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-app-vcs/zipball/8d09e1c3fbc42ac7044675dfe9d6dbaa8d64270c",
+                "reference": "8d09e1c3fbc42ac7044675dfe9d6dbaa8d64270c",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-vcs": ">=0.1.1"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Integration of the version control library for a Ride application.",
+            "time": "2014-05-07 09:08:10"
+        },
+        {
+            "name": "ride/cli",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-cli.git",
+                "reference": "3230e067d60664e3c25f53824dcd015c25b54b14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-cli/zipball/3230e067d60664e3c25f53824dcd015c25b54b14",
+                "reference": "3230e067d60664e3c25f53824dcd015c25b54b14",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app": ">=0.4.0",
+                "ride/lib-cli": ">=0.2.0",
+                "ride/lib-config": ">=0.2.0",
+                "ride/lib-dependency": ">=0.3.0",
+                "ride/lib-system": ">=0.2.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\cli\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "CLI for a Ride application",
+            "time": "2015-03-02 12:32:04"
+        },
+        {
+            "name": "ride/cli-app",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-cli-app.git",
+                "reference": "c7c469959c858869e040fbfb8bc52756dec3ea5b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-cli-app/zipball/c7c469959c858869e040fbfb8bc52756dec3ea5b",
+                "reference": "c7c469959c858869e040fbfb8bc52756dec3ea5b",
+                "shasum": ""
+            },
+            "require": {
+                "ride/cli": ">=0.5.0",
+                "ride/lib-cli": ">=0.2.0",
+                "ride/lib-config": ">=0.2.0",
+                "ride/lib-dependency": ">=0.3.0",
+                "ride/lib-system": ">=0.2.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\cli\\command\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Application commands for the Ride CLI",
+            "time": "2015-03-03 12:55:16"
+        },
+        {
+            "name": "ride/cli-database",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-cli-database.git",
+                "reference": "73b41e92bebc8443712d123e691378fbe7ba6af6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-cli-database/zipball/73b41e92bebc8443712d123e691378fbe7ba6af6",
+                "reference": "73b41e92bebc8443712d123e691378fbe7ba6af6",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-cli": ">=0.1.0",
+                "ride/lib-database": ">=0.1.0",
+                "ride/lib-log": ">=0.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\cli\\command\\database\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Database commands for the Ride CLI",
+            "time": "2014-05-07 09:11:59"
+        },
+        {
+            "name": "ride/cli-orm",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-cli-orm.git",
+                "reference": "165dfb4a7251a6f746529d44bcb3325ff11ea532"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-cli-orm/zipball/165dfb4a7251a6f746529d44bcb3325ff11ea532",
+                "reference": "165dfb4a7251a6f746529d44bcb3325ff11ea532",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app-orm": ">=0.2.0",
+                "ride/cli": ">=0.5.0",
+                "ride/lib-orm": ">=0.3.0",
+                "ride/lib-system": ">=0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\cli\\command\\orm\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "ORM commands for the Ride CLI",
+            "time": "2015-03-02 12:47:50"
+        },
+        {
+            "name": "ride/cli-security",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-cli-security.git",
+                "reference": "254cec5d7349b73e7f97d00ea5463a78fbfaa7fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-cli-security/zipball/254cec5d7349b73e7f97d00ea5463a78fbfaa7fc",
+                "reference": "254cec5d7349b73e7f97d00ea5463a78fbfaa7fc",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app": ">=0.4.0",
+                "ride/cli": ">=0.4.0",
+                "ride/lib-cli": ">=0.1.0",
+                "ride/lib-common": ">=0.4.0",
+                "ride/lib-security": ">=0.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\cli\\command\\security\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Security commands for the CLI of a Ride application",
+            "time": "2014-08-08 20:53:21"
+        },
+        {
+            "name": "ride/cli-web",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-cli-web.git",
+                "reference": "31966f3915454b7d713f6ee4ce03a4075ddf4de3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-cli-web/zipball/31966f3915454b7d713f6ee4ce03a4075ddf4de3",
+                "reference": "31966f3915454b7d713f6ee4ce03a4075ddf4de3",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-cli": ">=0.1.0",
+                "ride/lib-http": ">=0.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\cli\\command\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Web commands for the Ride CLI",
+            "time": "2014-05-07 09:20:56"
+        },
+        {
+            "name": "ride/lib-api",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-api.git",
+                "reference": "ff3067ab0016d84e1e0b72a06099aeb13034686b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-api/zipball/ff3067ab0016d84e1e0b72a06099aeb13034686b",
+                "reference": "ff3067ab0016d84e1e0b72a06099aeb13034686b",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-system": ">=0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\api\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "API library of the Ride framework.",
+            "time": "2014-03-28 15:30:42"
+        },
+        {
+            "name": "ride/lib-cache",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-cache.git",
+                "reference": "4be883c292c5429bfef7e253a31e13f5cc1339dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-cache/zipball/4be883c292c5429bfef7e253a31e13f5cc1339dd",
+                "reference": "4be883c292c5429bfef7e253a31e13f5cc1339dd",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-system": ">=0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\cache\\": [
+                        "src/",
+                        "test/src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Cache library of the Ride framework.",
+            "time": "2014-02-21 11:54:11"
+        },
+        {
+            "name": "ride/lib-cli",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-cli.git",
+                "reference": "1b43f509639156dba833a8f56ff05782a3298749"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-cli/zipball/1b43f509639156dba833a8f56ff05782a3298749",
+                "reference": "1b43f509639156dba833a8f56ff05782a3298749",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\cli\\": [
+                        "src/",
+                        "test/src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "CLI library of the Ride framework",
+            "time": "2015-03-02 02:13:18"
+        },
+        {
+            "name": "ride/lib-cms",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-cms.git",
+                "reference": "b29a8c8c320e54d3d7438bd7327c6a40da4dd1e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-cms/zipball/b29a8c8c320e54d3d7438bd7327c6a40da4dd1e1",
+                "reference": "b29a8c8c320e54d3d7438bd7327c6a40da4dd1e1",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-common": ">=0.4.0",
+                "ride/lib-config": ">=0.2.3",
+                "ride/lib-reflection": ">=0.4.0",
+                "ride/lib-security": ">=0.4.0",
+                "ride/lib-system": ">=0.4.6",
+                "ride/lib-template": ">=0.4.0",
+                "ride/lib-widget": ">=0.3.0",
+                "shark/simple_html_dom": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\cms\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "CMS library of the Ride framework",
+            "time": "2015-03-14 12:50:53"
+        },
+        {
+            "name": "ride/lib-common",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-common.git",
+                "reference": "0576ed1755bf9ed381726df000a0eb4ce22b97c8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-common/zipball/0576ed1755bf9ed381726df000a0eb4ce22b97c8",
+                "reference": "0576ed1755bf9ed381726df000a0eb4ce22b97c8",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\": [
+                        "src/",
+                        "test/src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Shared classes of the Ride framework",
+            "time": "2015-03-14 12:36:03"
+        },
+        {
+            "name": "ride/lib-config",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-config.git",
+                "reference": "0b7ca80f580bbc48fe7e74b2731a664dfade95cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-config/zipball/0b7ca80f580bbc48fe7e74b2731a664dfade95cb",
+                "reference": "0b7ca80f580bbc48fe7e74b2731a664dfade95cb",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-system": ">=0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\config\\": [
+                        "src/",
+                        "test/src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Configuration library of the Ride framework",
+            "time": "2015-01-20 10:21:53"
+        },
+        {
+            "name": "ride/lib-database",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-database.git",
+                "reference": "3deb602a3e932e7604c3af473575add02c2917a5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-database/zipball/3deb602a3e932e7604c3af473575add02c2917a5",
+                "reference": "3deb602a3e932e7604c3af473575add02c2917a5",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-log": ">=0.2.0",
+                "ride/lib-validation": ">=0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\database\\": [
+                        "src/",
+                        "test/src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Ride library for database abstraction.",
+            "time": "2015-02-13 14:58:05"
+        },
+        {
+            "name": "ride/lib-dependency",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-dependency.git",
+                "reference": "f83ea491e01b0a184c5753763e3a28312240c5d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-dependency/zipball/f83ea491e01b0a184c5753763e3a28312240c5d4",
+                "reference": "f83ea491e01b0a184c5753763e3a28312240c5d4",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-reflection": ">=0.4.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\dependency\\": [
+                        "src/",
+                        "test/src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Dependency injection library of the Ride framework",
+            "time": "2015-03-01 16:06:42"
+        },
+        {
+            "name": "ride/lib-encryption",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-encryption.git",
+                "reference": "3ff0061666e6e1e86f4f249a70ec8fb221ceb816"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-encryption/zipball/3ff0061666e6e1e86f4f249a70ec8fb221ceb816",
+                "reference": "3ff0061666e6e1e86f4f249a70ec8fb221ceb816",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\encryption\\": [
+                        "src/",
+                        "test/src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Encryption library of the Ride framework",
+            "time": "2014-02-21 11:53:58"
+        },
+        {
+            "name": "ride/lib-event",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-event.git",
+                "reference": "251bc469e443661f4a54fbdeccc0bed969f37a43"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-event/zipball/251bc469e443661f4a54fbdeccc0bed969f37a43",
+                "reference": "251bc469e443661f4a54fbdeccc0bed969f37a43",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-reflection": ">=0.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\event\\": [
+                        "src/",
+                        "test/src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Event library of the Ride framework",
+            "time": "2014-02-21 11:55:26"
+        },
+        {
+            "name": "ride/lib-form",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-form.git",
+                "reference": "56a4bcd4466764249af2306a99cf3273c471bfd3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-form/zipball/56a4bcd4466764249af2306a99cf3273c471bfd3",
+                "reference": "56a4bcd4466764249af2306a99cf3273c471bfd3",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-common": ">=0.4.0",
+                "ride/lib-image": ">=0.5.0",
+                "ride/lib-reflection": ">=0.4.0",
+                "ride/lib-system": ">=0.3.1",
+                "ride/lib-validation": ">=0.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\form\\": [
+                        "src/"
+                    ],
+                    "ride\\library\\validation\\validator\\ImageValidator": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Form library of the Ride framework",
+            "time": "2015-03-03 13:28:09"
+        },
+        {
+            "name": "ride/lib-generator",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-generator.git",
+                "reference": "11001b64d3e47ef7af12c1fe3c3dab2a316e9e96"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-generator/zipball/11001b64d3e47ef7af12c1fe3c3dab2a316e9e96",
+                "reference": "11001b64d3e47ef7af12c1fe3c3dab2a316e9e96",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\generator\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Code generator library of the Ride framework",
+            "time": "2015-03-14 12:52:38"
+        },
+        {
+            "name": "ride/lib-html",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-html.git",
+                "reference": "6c33d8bc23b0fe48f7bd4a06ade80057e29f07de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-html/zipball/6c33d8bc23b0fe48f7bd4a06ade80057e29f07de",
+                "reference": "6c33d8bc23b0fe48f7bd4a06ade80057e29f07de",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-common": ">=0.4.0",
+                "ride/lib-form": ">=0.4.0",
+                "ride/lib-image": ">=0.5.0",
+                "ride/lib-reflection": ">=0.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\decorator\\TableOptionDecorator": [
+                        "src/"
+                    ],
+                    "ride\\library\\html\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "HTML library of the Ride framework",
+            "time": "2014-09-16 10:36:25"
+        },
+        {
+            "name": "ride/lib-http",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-http.git",
+                "reference": "7e975f62ed5a58fd23a047b533c92421e41b6afc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-http/zipball/7e975f62ed5a58fd23a047b533c92421e41b6afc",
+                "reference": "7e975f62ed5a58fd23a047b533c92421e41b6afc",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\http\\": [
+                        "src/",
+                        "test/src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "HTTP library of the Ride framework",
+            "time": "2015-03-05 10:08:06"
+        },
+        {
+            "name": "ride/lib-http-client",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-http-client.git",
+                "reference": "ba690c589ca0d12914351b46f156b504c0448d75"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-http-client/zipball/ba690c589ca0d12914351b46f156b504c0448d75",
+                "reference": "ba690c589ca0d12914351b46f156b504c0448d75",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-http": ">=0.2.1",
+                "ride/lib-log": ">=0.2.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\http\\client": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "HTTP client library of the Ride framework",
+            "time": "2015-02-12 12:07:50"
+        },
+        {
+            "name": "ride/lib-i18n",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-i18n.git",
+                "reference": "7125ae1877e5b363b7842cedd993409133b5d1f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-i18n/zipball/7125ae1877e5b363b7842cedd993409133b5d1f6",
+                "reference": "7125ae1877e5b363b7842cedd993409133b5d1f6",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\i18n\\": [
+                        "src/",
+                        "test/src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Internationalization library of the Ride framework",
+            "time": "2014-04-27 00:28:44"
+        },
+        {
+            "name": "ride/lib-image",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-image.git",
+                "reference": "ddf164a5d1142d6c8fa642c90a5599d22afb2d23"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-image/zipball/ddf164a5d1142d6c8fa642c90a5599d22afb2d23",
+                "reference": "ddf164a5d1142d6c8fa642c90a5599d22afb2d23",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-system": ">=0.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\image\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Image processing library of the Ride framework",
+            "time": "2015-04-09 14:00:59"
+        },
+        {
+            "name": "ride/lib-log",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-log.git",
+                "reference": "cf5e51c0f5f8e5aee0f8834b8c7e7d5781b431c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-log/zipball/cf5e51c0f5f8e5aee0f8834b8c7e7d5781b431c4",
+                "reference": "cf5e51c0f5f8e5aee0f8834b8c7e7d5781b431c4",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-common": ">=0.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\decorator\\": [
+                        "src/",
+                        "test/src/"
+                    ],
+                    "ride\\library\\log\\": [
+                        "src/",
+                        "test/src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Log library of the Ride framework",
+            "time": "2015-04-01 13:53:43"
+        },
+        {
+            "name": "ride/lib-mail",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-mail.git",
+                "reference": "20fd66aec0c96397f42a1a50fe1a7ba9285d6932"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-mail/zipball/20fd66aec0c96397f42a1a50fe1a7ba9285d6932",
+                "reference": "20fd66aec0c96397f42a1a50fe1a7ba9285d6932",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-log": ">=0.2.0",
+                "ride/lib-system": ">=4.0.0",
+                "ride/lib-validation": ">=0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\mail\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Mail library of the Ride framework",
+            "time": "2014-05-06 09:25:56"
+        },
+        {
+            "name": "ride/lib-mail-mandrill",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-mail-mandrill.git",
+                "reference": "957b0f9e4e0998020105e9336ee9e7f521544daf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-mail-mandrill/zipball/957b0f9e4e0998020105e9336ee9e7f521544daf",
+                "reference": "957b0f9e4e0998020105e9336ee9e7f521544daf",
+                "shasum": ""
+            },
+            "require": {
+                "mandrill/mandrill": "1.0.48",
+                "ride/lib-log": ">=0.2.0",
+                "ride/lib-mail": ">=0.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\mail\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Mandrill implementation for the mail library of the Ride framework",
+            "time": "2014-04-16 15:29:10"
+        },
+        {
+            "name": "ride/lib-manual",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-manual.git",
+                "reference": "a24169e649129736201466d2e4008e1576e9a13f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-manual/zipball/a24169e649129736201466d2e4008e1576e9a13f",
+                "reference": "a24169e649129736201466d2e4008e1576e9a13f",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-common": ">=0.4.0",
+                "ride/lib-html": ">=0.1.0",
+                "ride/lib-system": ">=0.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\manual\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Manual library of the Ride framework",
+            "time": "2014-05-04 09:18:17"
+        },
+        {
+            "name": "ride/lib-media",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-media.git",
+                "reference": "711a3161a371057d94f1a7f36d136cdb5f4fad5e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-media/zipball/711a3161a371057d94f1a7f36d136cdb5f4fad5e",
+                "reference": "711a3161a371057d94f1a7f36d136cdb5f4fad5e",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-http-client": ">=0.1.3",
+                "ride/lib-validation": ">=0.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\media\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Library for abstraction of media services in the Ride framework",
+            "time": "2015-03-03 12:47:19"
+        },
+        {
+            "name": "ride/lib-mvc",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-mvc.git",
+                "reference": "39a280452bcde3b67509ff324870fa6f57f81dc5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-mvc/zipball/39a280452bcde3b67509ff324870fa6f57f81dc5",
+                "reference": "39a280452bcde3b67509ff324870fa6f57f81dc5",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-http": ">=0.2.0",
+                "ride/lib-reflection": ">=0.3.0",
+                "ride/lib-router": ">=0.1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\mvc\\": [
+                        "src/",
+                        "test/src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "MVC library of the Ride framework",
+            "time": "2015-03-05 10:10:34"
+        },
+        {
+            "name": "ride/lib-orm",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-orm.git",
+                "reference": "c0d2ba0d752e763690d0675854df2de693b328bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-orm/zipball/c0d2ba0d752e763690d0675854df2de693b328bb",
+                "reference": "c0d2ba0d752e763690d0675854df2de693b328bb",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-cache": ">=0.1.1",
+                "ride/lib-common": ">=0.4.0",
+                "ride/lib-database": ">=0.1.3",
+                "ride/lib-generator": ">=0.1.0",
+                "ride/lib-log": ">=0.2.0",
+                "ride/lib-reflection": ">=0.4.0",
+                "ride/lib-system": ">=0.3.0",
+                "ride/lib-tokenizer": ">=0.1.0",
+                "ride/lib-validation": ">=0.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\orm\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "ORM library of the Ride framework.",
+            "time": "2015-04-09 14:04:29"
+        },
+        {
+            "name": "ride/lib-reflection",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-reflection.git",
+                "reference": "58ab81a6fdfffad3b20f89b00dd582ef95b46815"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-reflection/zipball/58ab81a6fdfffad3b20f89b00dd582ef95b46815",
+                "reference": "58ab81a6fdfffad3b20f89b00dd582ef95b46815",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\reflection\\": [
+                        "src/",
+                        "test/src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Reflection helper library of the Ride framework",
+            "time": "2015-03-01 15:57:14"
+        },
+        {
+            "name": "ride/lib-router",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-router.git",
+                "reference": "976165e062b5f30bd5049cf09b961e73a433bfbf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-router/zipball/976165e062b5f30bd5049cf09b961e73a433bfbf",
+                "reference": "976165e062b5f30bd5049cf09b961e73a433bfbf",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\router\\": [
+                        "src/",
+                        "test/src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Router library of the Ride framework",
+            "time": "2014-12-19 10:56:09"
+        },
+        {
+            "name": "ride/lib-security",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-security.git",
+                "reference": "cd4cfbb4a549976d5d8652f51d9d7e5963bae6a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-security/zipball/cd4cfbb4a549976d5d8652f51d9d7e5963bae6a6",
+                "reference": "cd4cfbb4a549976d5d8652f51d9d7e5963bae6a6",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-encryption": ">=0.1.0",
+                "ride/lib-event": ">=0.3.2",
+                "ride/lib-http": ">=0.2.1",
+                "ride/lib-log": ">=0.2.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\security\\": [
+                        "src/",
+                        "test/src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Security library of the Ride framework",
+            "time": "2015-03-18 19:56:37"
+        },
+        {
+            "name": "ride/lib-security-oauth",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-security-oauth.git",
+                "reference": "0f54b7080ccee2267ff3c7f43c2cec6bd3f583e2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-security-oauth/zipball/0f54b7080ccee2267ff3c7f43c2cec6bd3f583e2",
+                "reference": "0f54b7080ccee2267ff3c7f43c2cec6bd3f583e2",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-common": ">=0.1.0",
+                "ride/lib-http": ">=0.3.3",
+                "ride/lib-http-client": ">=0.1.1",
+                "ride/lib-security": ">=0.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\security\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "OAuth implementation for the security model of the Ride framework",
+            "time": "2015-04-10 11:06:38"
+        },
+        {
+            "name": "ride/lib-system",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-system.git",
+                "reference": "adcdb6d9bd586c7238f6b95fa913dd38befb31eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-system/zipball/adcdb6d9bd586c7238f6b95fa913dd38befb31eb",
+                "reference": "adcdb6d9bd586c7238f6b95fa913dd38befb31eb",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\system\\": [
+                        "src/",
+                        "test/src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "System library of the Ride framework",
+            "time": "2015-01-29 10:37:08"
+        },
+        {
+            "name": "ride/lib-template",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-template.git",
+                "reference": "813393c6bf33c62a2bccf423cb29a647c19a6fc4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-template/zipball/813393c6bf33c62a2bccf423cb29a647c19a6fc4",
+                "reference": "813393c6bf33c62a2bccf423cb29a647c19a6fc4",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\template\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Template library of the Ride framework.",
+            "time": "2015-01-06 17:12:16"
+        },
+        {
+            "name": "ride/lib-template-smarty",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-template-smarty.git",
+                "reference": "df3ed2eb438352f1be36c73bfb7a103e1018a773"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-template-smarty/zipball/df3ed2eb438352f1be36c73bfb7a103e1018a773",
+                "reference": "df3ed2eb438352f1be36c73bfb7a103e1018a773",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-system": ">=0.2.0",
+                "ride/lib-template": ">=0.6.0",
+                "smarty/smarty": "dev-master#d3e26fb679081bc5f4427d86cb8d4275e835e094"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\template\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Smarty engine for the template library of the Ride framework.",
+            "time": "2015-01-22 16:04:11"
+        },
+        {
+            "name": "ride/lib-tokenizer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-tokenizer.git",
+                "reference": "e0914a1aa2677eddb72b8e6126a2f222f8e459f8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-tokenizer/zipball/e0914a1aa2677eddb72b8e6126a2f222f8e459f8",
+                "reference": "e0914a1aa2677eddb72b8e6126a2f222f8e459f8",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\tokenizer\\": [
+                        "src/",
+                        "test/src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Tokenizer library of the Ride framework.",
+            "time": "2014-02-21 11:54:03"
+        },
+        {
+            "name": "ride/lib-validation",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-validation.git",
+                "reference": "6cb40f7a8d1487c871daa824ae9b96ecb0433f35"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-validation/zipball/6cb40f7a8d1487c871daa824ae9b96ecb0433f35",
+                "reference": "6cb40f7a8d1487c871daa824ae9b96ecb0433f35",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-reflection": ">=0.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\validation\\": [
+                        "src/",
+                        "test/src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Validation library of the Ride framework",
+            "time": "2015-03-24 16:00:09"
+        },
+        {
+            "name": "ride/lib-vcs",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-vcs.git",
+                "reference": "7ea5df48b19811e3e26d5fc3940e8a64658e0ca4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-vcs/zipball/7ea5df48b19811e3e26d5fc3940e8a64658e0ca4",
+                "reference": "7ea5df48b19811e3e26d5fc3940e8a64658e0ca4",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-system": ">=0.4.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\vcs\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Version control library of the Ride framework",
+            "time": "2014-05-11 22:03:20"
+        },
+        {
+            "name": "ride/lib-widget",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-widget.git",
+                "reference": "b4c17dca6ddc1c4288c9bdb52d9360e18c353eb7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-widget/zipball/b4c17dca6ddc1c4288c9bdb52d9360e18c353eb7",
+                "reference": "b4c17dca6ddc1c4288c9bdb52d9360e18c353eb7",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-mvc": ">=0.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\widget\\": [
+                        "src/",
+                        "test/src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Widget library of the Ride framework",
+            "time": "2014-07-11 10:10:12"
+        },
+        {
+            "name": "ride/setup",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-setup.git",
+                "reference": "aee74d1495c678ba81c7991323a2003950b5dc84"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-setup/zipball/aee74d1495c678ba81c7991323a2003950b5dc84",
+                "reference": "aee74d1495c678ba81c7991323a2003950b5dc84",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "1.0.0"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "ride\\setup\\ComposerInstaller"
+            },
+            "autoload": {
+                "psr-0": {
+                    "ride\\setup\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Setup hooks for the Composer dependency manager.",
+            "time": "2014-02-21 11:55:43"
+        },
+        {
+            "name": "ride/setup-app",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-setup-app.git",
+                "reference": "538574b1d2602281898717d4c41f9d5adef1ae88"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-setup-app/zipball/538574b1d2602281898717d4c41f9d5adef1ae88",
+                "reference": "538574b1d2602281898717d4c41f9d5adef1ae88",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app": ">=0.4.0",
+                "ride/setup": ">=0.1.0"
+            },
+            "type": "ride-setup",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Setup the base Ride framework through the Composer dependency manager.",
+            "time": "2014-02-21 11:54:15"
+        },
+        {
+            "name": "ride/setup-cli",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-setup-cli.git",
+                "reference": "6a4f4a634e57a3e2b926785ae359fd824434145d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-setup-cli/zipball/6a4f4a634e57a3e2b926785ae359fd824434145d",
+                "reference": "6a4f4a634e57a3e2b926785ae359fd824434145d",
+                "shasum": ""
+            },
+            "require": {
+                "ride/cli": ">=0.3.0",
+                "ride/setup": ">=0.1.0",
+                "ride/setup-app": ">=0.1.0"
+            },
+            "type": "ride-setup",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Setup the Ride CLI through the Composer dependency manager.",
+            "time": "2014-02-21 11:53:35"
+        },
+        {
+            "name": "ride/setup-web",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-setup-web.git",
+                "reference": "1c65881066cff0a00743a8d0fdb0ca60c79f9f34"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-setup-web/zipball/1c65881066cff0a00743a8d0fdb0ca60c79f9f34",
+                "reference": "1c65881066cff0a00743a8d0fdb0ca60c79f9f34",
+                "shasum": ""
+            },
+            "require": {
+                "ride/setup": ">=0.1.0",
+                "ride/setup-app": ">=0.1.0",
+                "ride/web": ">=0.1.0"
+            },
+            "type": "ride-setup",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Setup the Ride web interface through the Composer dependency manager.",
+            "time": "2014-02-21 11:55:28"
+        },
+        {
+            "name": "ride/theme-asphalt",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-theme-asphalt.git",
+                "reference": "acb78cb79499d57b0f362cfdf25a00405bb7200f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-theme-asphalt/zipball/acb78cb79499d57b0f362cfdf25a00405bb7200f",
+                "reference": "acb78cb79499d57b0f362cfdf25a00405bb7200f",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app-template-smarty": ">=0.2.0",
+                "ride/lib-template": ">=0.4.0",
+                "ride/web-template-smarty": ">=0.3.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\template\\theme\\": [
+                        "src/",
+                        "test/src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                },
+                {
+                    "name": "Bart Verbruggen",
+                    "email": "bart@statik.be"
+                }
+            ],
+            "description": "Asphalt theme for the base web application of the Ride framework",
+            "time": "2015-04-09 15:04:07"
+        },
+        {
+            "name": "ride/theme-asphalt-cms",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-theme-asphalt-cms.git",
+                "reference": "6765dc4c1f95d7a9a1f603f658ce3bfaf885c4b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-theme-asphalt-cms/zipball/6765dc4c1f95d7a9a1f603f658ce3bfaf885c4b9",
+                "reference": "6765dc4c1f95d7a9a1f603f658ce3bfaf885c4b9",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app-template-smarty": ">=0.2.0",
+                "ride/lib-cms": ">=0.10.4",
+                "ride/lib-common": ">=0.4.0",
+                "ride/lib-i18n": ">=0.1.0",
+                "ride/lib-template": ">=0.4.0",
+                "ride/theme-asphalt": ">=0.1.10",
+                "ride/web-template-smarty": ">=0.3.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\web\\cms\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bart Verbruggen",
+                    "email": "bart@statik.be"
+                }
+            ],
+            "description": "Asphalt theme for the CMS application of the Ride framework",
+            "time": "2015-04-09 13:34:21"
+        },
+        {
+            "name": "ride/wba-assets",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-wba-assets.git",
+                "reference": "5ec72532d766b350f583d2aee23942d47a99dc3f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-wba-assets/zipball/5ec72532d766b350f583d2aee23942d47a99dc3f",
+                "reference": "5ec72532d766b350f583d2aee23942d47a99dc3f",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app-media": ">=0.2.0",
+                "ride/app-orm": ">=0.1.0",
+                "ride/app-orm-asset": ">=0.2.0",
+                "ride/lib-form": ">=0.5.4",
+                "ride/lib-http": ">=0.2.1",
+                "ride/lib-i18n": ">=0.1.0",
+                "ride/lib-image": ">=0.2.0",
+                "ride/lib-media": ">=0.1.0",
+                "ride/lib-system": ">=0.1.0",
+                "ride/lib-validation": ">=0.1.0",
+                "ride/web-base": ">=0.8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\web\\base\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                },
+                {
+                    "name": "Ward Brems",
+                    "email": "ward@statik.be"
+                }
+            ],
+            "description": "Assets library for the Ride base application",
+            "time": "2015-04-09 14:24:42"
+        },
+        {
+            "name": "ride/wba-cms-assets",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-wba-cms-assets.git",
+                "reference": "d21cd8a19a1aa0bff6060424f5a87b2bb5eb83d0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-wba-cms-assets/zipball/d21cd8a19a1aa0bff6060424f5a87b2bb5eb83d0",
+                "reference": "d21cd8a19a1aa0bff6060424f5a87b2bb5eb83d0",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-cms": ">=0.15.0",
+                "ride/lib-orm": ">=0.7.2",
+                "ride/lib-validation": ">=0.1.0",
+                "ride/wba-assets": ">=0.2.0",
+                "ride/web-cms": ">=0.18.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\web\\cms\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "CMS integration of the assets module",
+            "time": "2015-04-08 12:00:32"
+        },
+        {
+            "name": "ride/web",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-web.git",
+                "reference": "a02117a7b258f288031b438cbf7fb3e99ba771e0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-web/zipball/a02117a7b258f288031b438cbf7fb3e99ba771e0",
+                "reference": "a02117a7b258f288031b438cbf7fb3e99ba771e0",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app": ">=0.5.0",
+                "ride/lib-common": ">=0.4.0",
+                "ride/lib-config": ">=0.2.0",
+                "ride/lib-dependency": ">=0.7.0",
+                "ride/lib-event": ">=0.3.0",
+                "ride/lib-http": ">=0.3.4",
+                "ride/lib-http-client": ">=0.1.0",
+                "ride/lib-log": ">=0.2.0",
+                "ride/lib-mvc": ">=0.2.0",
+                "ride/lib-router": ">=0.1.0",
+                "ride/lib-system": ">=0.2.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\web\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Web interface for a Ride application",
+            "time": "2015-03-03 13:23:15"
+        },
+        {
+            "name": "ride/web-api",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-web-api.git",
+                "reference": "db023b6e08f22c29c2cde3e4ef19164216ca7b0f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-web-api/zipball/db023b6e08f22c29c2cde3e4ef19164216ca7b0f",
+                "reference": "db023b6e08f22c29c2cde3e4ef19164216ca7b0f",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app-api": ">=0.1.0",
+                "ride/lib-api": ">=0.1.0",
+                "ride/lib-http": ">=0.3.0",
+                "ride/web-base": ">=0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\web\\api\\controller\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "API browser of a Ride web application.",
+            "time": "2014-05-07 09:52:59"
+        },
+        {
+            "name": "ride/web-base",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-web-base.git",
+                "reference": "79e8803dfa4c63ff7688cebd0c6ae78e73e2d9d7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-web-base/zipball/79e8803dfa4c63ff7688cebd0c6ae78e73e2d9d7",
+                "reference": "79e8803dfa4c63ff7688cebd0c6ae78e73e2d9d7",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app": ">=0.5.2",
+                "ride/app-mail": ">=0.2.0",
+                "ride/app-validation": ">=0.1.0",
+                "ride/lib-config": ">=0.2.3",
+                "ride/lib-event": ">=0.3.0",
+                "ride/lib-form": ">=0.10.0",
+                "ride/lib-html": ">=0.2.0",
+                "ride/lib-http": ">=0.2.2",
+                "ride/lib-i18n": ">=0.1.0",
+                "ride/lib-mvc": ">=0.2.0",
+                "ride/lib-router": ">=0.1.0",
+                "ride/lib-security": ">=0.4.0",
+                "ride/lib-validation": ">=0.4.0",
+                "ride/web": ">=0.4.4",
+                "ride/web-form": ">=0.4.0",
+                "ride/web-i18n": ">=0.1.0",
+                "ride/web-security": ">=0.1.0",
+                "ride/web-template": ">=0.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\web\\base\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Base web application of the Ride framework",
+            "time": "2015-04-08 12:52:46"
+        },
+        {
+            "name": "ride/web-cms",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-web-cms.git",
+                "reference": "1c24c06dac134f7b01ac855563a7520586856bdc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-web-cms/zipball/1c24c06dac134f7b01ac855563a7520586856bdc",
+                "reference": "1c24c06dac134f7b01ac855563a7520586856bdc",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-cache": ">=0.1.1",
+                "ride/lib-cms": ">=0.15.16",
+                "ride/lib-common": ">=0.4.0",
+                "ride/lib-dependency": ">=0.5.3",
+                "ride/lib-event": ">=0.3.2",
+                "ride/lib-form": ">=0.5.4",
+                "ride/lib-http": ">=0.2.1",
+                "ride/lib-i18n": ">=0.1.0",
+                "ride/lib-image": ">=0.2.0",
+                "ride/lib-mvc": ">=0.4.1",
+                "ride/lib-reflection": ">=0.4.0",
+                "ride/lib-router": ">=0.1.3",
+                "ride/lib-security": ">=0.1.2",
+                "ride/lib-template": ">=0.6.0",
+                "ride/lib-validation": ">=0.2.0",
+                "ride/lib-widget": ">=0.1.1",
+                "ride/web": ">=0.2.4",
+                "ride/web-base": ">=0.8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\application\\cache\\control\\CmsCacheControl": [
+                        "src/"
+                    ],
+                    "ride\\web\\cms\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "CMS application of the Ride framework",
+            "time": "2015-04-08 11:42:50"
+        },
+        {
+            "name": "ride/web-cms-layouts",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-web-cms-layouts.git",
+                "reference": "5710b01728de6a6390bd3b449a96cd804d13d004"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-web-cms-layouts/zipball/5710b01728de6a6390bd3b449a96cd804d13d004",
+                "reference": "5710b01728de6a6390bd3b449a96cd804d13d004",
+                "shasum": ""
+            },
+            "require": {
+                "ride/web-cms": ">=0.16.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\web\\cms\\layout\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Base layouts for the CMS application of the Ride framework",
+            "time": "2014-12-15 12:00:56"
+        },
+        {
+            "name": "ride/web-cms-orm",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-web-cms-orm.git",
+                "reference": "3a518d2d56dd46a1edfa8b8d77065322055176f8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-web-cms-orm/zipball/3a518d2d56dd46a1edfa8b8d77065322055176f8",
+                "reference": "3a518d2d56dd46a1edfa8b8d77065322055176f8",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app-orm": ">=0.2.0",
+                "ride/lib-cms": ">=0.15.14",
+                "ride/lib-common": ">=0.4.0",
+                "ride/lib-event": ">=0.3.2",
+                "ride/lib-form": ">=0.10.0",
+                "ride/lib-html": ">=0.1.1",
+                "ride/lib-http": ">=0.2.1",
+                "ride/lib-i18n": ">=0.1.0",
+                "ride/lib-mvc": ">=0.2.1",
+                "ride/lib-orm": ">=0.4.0",
+                "ride/lib-router": ">=0.1.3",
+                "ride/lib-template": ">=0.3.0",
+                "ride/lib-validation": ">=0.4.0",
+                "ride/lib-widget": ">=0.1.1",
+                "ride/web-base": ">=0.4.0",
+                "ride/web-cms": ">=0.16.0",
+                "ride/web-cms-widgets": ">=0.18.0",
+                "ride/web-orm": ">=0.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\web\\cms\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "ORM integration with the CMS application of the Ride framework",
+            "time": "2015-04-10 13:34:11"
+        },
+        {
+            "name": "ride/web-cms-security",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-web-cms-security.git",
+                "reference": "7d0f21aa05a3104fa26ec10c9594cbf6b378d2a4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-web-cms-security/zipball/7d0f21aa05a3104fa26ec10c9594cbf6b378d2a4",
+                "reference": "7d0f21aa05a3104fa26ec10c9594cbf6b378d2a4",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-cms": ">=0.15.0",
+                "ride/lib-http": ">=0.2.1",
+                "ride/lib-i18n": ">=0.1.0",
+                "ride/lib-mail": ">=0.2.0",
+                "ride/lib-router": ">=0.1.3",
+                "ride/lib-security": ">=0.4.0",
+                "ride/lib-validation": ">=0.4.0",
+                "ride/web-base": ">=0.7.0",
+                "ride/web-cms": ">=0.16.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\web\\cms\\controller\\widget": [
+                        "src/"
+                    ],
+                    "ride\\web\\cms\\service\\security\\mail": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Security widgets for the CMS application of the Ride framework",
+            "time": "2014-12-11 13:31:35"
+        },
+        {
+            "name": "ride/web-cms-vcs",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-web-cms-vcs.git",
+                "reference": "5d3ae081d1282796c2f1d9a25b5755a34e20afe0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-web-cms-vcs/zipball/5d3ae081d1282796c2f1d9a25b5755a34e20afe0",
+                "reference": "5d3ae081d1282796c2f1d9a25b5755a34e20afe0",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app-validation": ">=0.3.0",
+                "ride/app-vcs": ">=0.1.0",
+                "ride/lib-event": ">=0.3.0",
+                "ride/lib-mvc": ">=0.2.0",
+                "ride/web": ">=0.3.0",
+                "ride/web-base": ">=0.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\web\\cms\\controller\\RepositoryController": [
+                        "src/"
+                    ],
+                    "ride\\web\\cms\\VcsApplicationListener": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Version control integration for the CMS content of a Ride application",
+            "time": "2014-12-02 11:27:43"
+        },
+        {
+            "name": "ride/web-cms-widgets",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-web-cms-widgets.git",
+                "reference": "32aa14609bd2ead0528d982a67c84b7e8b7e4759"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-web-cms-widgets/zipball/32aa14609bd2ead0528d982a67c84b7e8b7e4759",
+                "reference": "32aa14609bd2ead0528d982a67c84b7e8b7e4759",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-cms": ">=0.16.0",
+                "ride/lib-common": ">=0.4.0",
+                "ride/lib-form": ">=0.7.2",
+                "ride/lib-i18n": ">=0.1.0",
+                "ride/lib-validation": ">=0.1.0",
+                "ride/lib-widget": ">=0.1.1",
+                "ride/web-base": ">=0.7.6",
+                "ride/web-cms": ">=0.16.0",
+                "ride/web-form": ">=0.4.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\web\\cms\\controller\\widget\\": [
+                        "src/"
+                    ],
+                    "ride\\web\\cms\\form\\": [
+                        "src/"
+                    ],
+                    "ride\\web\\cms\\text\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Base widget for the CMS application of the Ride framework",
+            "time": "2015-04-08 11:38:56"
+        },
+        {
+            "name": "ride/web-documentation",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-web-documentation.git",
+                "reference": "6cf92923bf1fc93ceec03d8cf1ffa84fe648099f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-web-documentation/zipball/6cf92923bf1fc93ceec03d8cf1ffa84fe648099f",
+                "reference": "6cf92923bf1fc93ceec03d8cf1ffa84fe648099f",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-event": ">=0.3.0",
+                "ride/web-api": ">=0.1.0",
+                "ride/web-base": ">=0.4.0",
+                "ride/web-manual": ">=0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\web\\documentation\\ApplicationListener": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Live documentation of a Ride application",
+            "time": "2014-05-07 09:45:06"
+        },
+        {
+            "name": "ride/web-form",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-web-form.git",
+                "reference": "6fb7beb5d6d79e0242b964cb98c11a05b7928396"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-web-form/zipball/6fb7beb5d6d79e0242b964cb98c11a05b7928396",
+                "reference": "6fb7beb5d6d79e0242b964cb98c11a05b7928396",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app-form": ">=0.2.0",
+                "ride/lib-encryption": ">=0.1.0",
+                "ride/lib-form": ">=0.11.1",
+                "ride/lib-http": ">=0.3.0",
+                "ride/lib-mvc": ">=0.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\web\\form\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Form library integration in the web interface of the Ride framework",
+            "time": "2014-09-25 11:18:46"
+        },
+        {
+            "name": "ride/web-form-taxonomy",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-web-form-taxonomy.git",
+                "reference": "f49b07908605707bf596f03370aa8490d9927177"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-web-form-taxonomy/zipball/f49b07908605707bf596f03370aa8490d9927177",
+                "reference": "f49b07908605707bf596f03370aa8490d9927177",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-form": ">=0.8.0",
+                "ride/lib-validation": ">=0.2.0",
+                "ride/web-form": ">=0.4.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\web\\form\\row\\TagsRow": [
+                        "src/"
+                    ],
+                    "ride\\web\\taxonomy\\TagHandler": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Tags row for the form library of the Ride framework",
+            "time": "2015-01-22 10:27:27"
+        },
+        {
+            "name": "ride/web-i18n",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-web-i18n.git",
+                "reference": "8fff6921d4282a9ebd39f37a2ac39c4f35789914"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-web-i18n/zipball/8fff6921d4282a9ebd39f37a2ac39c4f35789914",
+                "reference": "8fff6921d4282a9ebd39f37a2ac39c4f35789914",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app": ">=0.4.0",
+                "ride/app-i18n": ">=0.1.1",
+                "ride/lib-dependency": ">=0.5.0",
+                "ride/lib-i18n": ">=0.1.0",
+                "ride/lib-log": ">=0.2.0",
+                "ride/lib-mvc": ">=0.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\web\\i18n\\locale\\negotiator": [
+                        "src/",
+                        "test/src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "I18n library integration in the web interface of the Ride framework",
+            "time": "2014-05-07 09:38:11"
+        },
+        {
+            "name": "ride/web-image",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-web-image.git",
+                "reference": "382369e035fd1793bbeb8e31942f1d9a7c79bc00"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-web-image/zipball/382369e035fd1793bbeb8e31942f1d9a7c79bc00",
+                "reference": "382369e035fd1793bbeb8e31942f1d9a7c79bc00",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app": ">=0.4.0",
+                "ride/app-image": ">=0.4.0",
+                "ride/lib-image": ">=0.7.0",
+                "ride/web": ">=0.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\application\\cache\\control\\": [
+                        "src/"
+                    ],
+                    "ride\\web\\image\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Image library integration for a Ride web application",
+            "time": "2015-04-09 14:03:41"
+        },
+        {
+            "name": "ride/web-manual",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-web-manual.git",
+                "reference": "6a09fb0fd56f9e7e08523620dcd7c05da25be7aa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-web-manual/zipball/6a09fb0fd56f9e7e08523620dcd7c05da25be7aa",
+                "reference": "6a09fb0fd56f9e7e08523620dcd7c05da25be7aa",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app-api": ">=0.1.0",
+                "ride/app-markdown": ">=0.1.0",
+                "ride/lib-http": ">=0.3.0",
+                "ride/lib-manual": ">=0.1.0",
+                "ride/web-base": ">=0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\web\\manual\\controller\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Manual browser of a Ride web application.",
+            "time": "2014-04-11 13:35:48"
+        },
+        {
+            "name": "ride/web-orm",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-web-orm.git",
+                "reference": "0f0ab92bbe294913e3742c849acec8e3c3bb47b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-web-orm/zipball/0f0ab92bbe294913e3742c849acec8e3c3bb47b6",
+                "reference": "0f0ab92bbe294913e3742c849acec8e3c3bb47b6",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app-orm": ">=0.2.0",
+                "ride/lib-common": ">=0.1.0",
+                "ride/lib-form": ">=0.10.0",
+                "ride/lib-html": ">=0.2.3",
+                "ride/lib-http": ">=0.2.1",
+                "ride/lib-i18n": ">=0.1.0",
+                "ride/lib-image": ">=0.2.0",
+                "ride/lib-orm": ">=0.5.15",
+                "ride/lib-reflection": ">=0.4.0",
+                "ride/lib-router": ">=0.1.3",
+                "ride/lib-security": ">=0.1.2",
+                "ride/lib-validation": ">=0.4.0",
+                "ride/web-base": ">=0.8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\web\\orm\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "ORM application of the Ride framework",
+            "time": "2015-04-09 14:09:12"
+        },
+        {
+            "name": "ride/web-orm-taxonomy",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-web-orm-taxonomy.git",
+                "reference": "b65ebe27d92415024161f8c6a0c52283f349e0f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-web-orm-taxonomy/zipball/b65ebe27d92415024161f8c6a0c52283f349e0f2",
+                "reference": "b65ebe27d92415024161f8c6a0c52283f349e0f2",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app-orm-taxonomy": ">=0.4.0",
+                "ride/lib-html": ">=0.2.3",
+                "ride/lib-http": ">=0.3.3",
+                "ride/lib-orm": ">=0.5.3",
+                "ride/lib-reflection": ">=0.4.2",
+                "ride/lib-validation": ">=0.2.0",
+                "ride/web-base": ">=0.8.0",
+                "ride/web-form-taxonomy": ">=0.2.0",
+                "ride/web-orm": ">=0.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\web\\orm\\controller\\TaxonomyController": [
+                        "src/"
+                    ],
+                    "ride\\web\\orm\\taxonomy\\OrmTagHandler": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Taxonomy implementation for the ORM of the Ride framework",
+            "time": "2015-03-04 12:32:12"
+        },
+        {
+            "name": "ride/web-security",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-web-security.git",
+                "reference": "f47b23e5f786073a5c57c7d7788620ec1347bdfd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-web-security/zipball/f47b23e5f786073a5c57c7d7788620ec1347bdfd",
+                "reference": "f47b23e5f786073a5c57c7d7788620ec1347bdfd",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app": ">=0.5.0",
+                "ride/lib-event": ">=0.3.2",
+                "ride/lib-http": ">=0.2.1",
+                "ride/lib-security": ">=0.3.1",
+                "ride/lib-system": ">=0.2.0",
+                "ride/web": ">=0.2.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\application\\cache\\control\\": [
+                        "src/",
+                        "test/src/"
+                    ],
+                    "ride\\web\\security\\": [
+                        "src/",
+                        "test/src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Security integration for a Ride web application.",
+            "time": "2014-07-29 14:20:51"
+        },
+        {
+            "name": "ride/web-security-oauth",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-web-security-oauth.git",
+                "reference": "f3f7c5ac97214442b2e2cb2d749861fc41cc07ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-web-security-oauth/zipball/f3f7c5ac97214442b2e2cb2d749861fc41cc07ab",
+                "reference": "f3f7c5ac97214442b2e2cb2d749861fc41cc07ab",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-security-oauth": ">=0.1.0",
+                "ride/web-base": ">=0.2.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\web\\base\\controller\\OAuth2Controller": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "OAuth security integration for a Ride web application.",
+            "time": "2014-11-26 13:35:15"
+        },
+        {
+            "name": "ride/web-security-orm",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-web-security-orm.git",
+                "reference": "bcefd8a968ac8a1701bb8ff0493ac9956827bfef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-web-security-orm/zipball/bcefd8a968ac8a1701bb8ff0493ac9956827bfef",
+                "reference": "bcefd8a968ac8a1701bb8ff0493ac9956827bfef",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app": ">=0.5.0",
+                "ride/app-orm": ">=0.3.1",
+                "ride/lib-orm": ">=0.6.3",
+                "ride/lib-security": ">=0.4.0",
+                "ride/lib-system": ">=0.1.2",
+                "ride/web": ">=0.2.4",
+                "ride/web-security": ">=0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\application\\orm\\": [
+                        "src/"
+                    ],
+                    "ride\\web\\security\\model\\orm\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "ORM security model integration for a Ride web application.",
+            "time": "2015-02-28 18:23:49"
+        },
+        {
+            "name": "ride/web-template",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-web-template.git",
+                "reference": "41065af7eb2fb4de94c303d1ffb2b588e6bd01a5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-web-template/zipball/41065af7eb2fb4de94c303d1ffb2b588e6bd01a5",
+                "reference": "41065af7eb2fb4de94c303d1ffb2b588e6bd01a5",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app": ">=0.4.0",
+                "ride/app-template": ">=0.1.0",
+                "ride/lib-config": ">=0.2.0",
+                "ride/lib-dependency": ">=0.3.0",
+                "ride/lib-mvc": ">=0.2.1",
+                "ride/lib-template": ">=0.2.0",
+                "ride/web": ">=0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\web\\": [
+                        "src/",
+                        "test/src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Template library integration in the web interface of the Ride framework",
+            "time": "2014-02-21 11:54:33"
+        },
+        {
+            "name": "ride/web-template-smarty",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-web-template-smarty.git",
+                "reference": "7f835efbf5a422bf1e6babe8fa289dcf0498e43a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-web-template-smarty/zipball/7f835efbf5a422bf1e6babe8fa289dcf0498e43a",
+                "reference": "7f835efbf5a422bf1e6babe8fa289dcf0498e43a",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app": ">=0.4.0",
+                "ride/app-template-smarty": ">=0.1.0",
+                "ride/lib-common": ">=0.4.0",
+                "ride/lib-html": ">=0.1.0",
+                "ride/web": ">=0.2.4",
+                "ride/web-i18n": ">=0.1.0",
+                "ride/web-image": ">=0.5.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Smarty template integration for the base web application of the Ride framework",
+            "time": "2014-08-26 12:59:02"
+        },
+        {
+            "name": "shark/simple_html_dom",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/samacs/simple_html_dom.git",
+                "reference": "842b3fc1f9f0c70b8c1b2e93fc451834c42e384d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/samacs/simple_html_dom/zipball/842b3fc1f9f0c70b8c1b2e93fc451834c42e384d",
+                "reference": "842b3fc1f9f0c70b8c1b2e93fc451834c42e384d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.2.4"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "simple_html_dom.php"
+                ],
+                "files": [
+                    "simple_html_dom.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "S.C. Chen",
+                    "email": "me578022@gmail.com",
+                    "homepage": "http://simplehtmldom.sourceforge.net/"
+                }
+            ],
+            "description": "Simple HTML DOM package.",
+            "homepage": "http://simplehtmldom.sourceforge.net/",
+            "keywords": [
+                "dom",
+                "php dom"
+            ],
+            "time": "2014-10-17 00:16:28"
+        },
+        {
+            "name": "smarty/smarty",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/smarty-php/smarty.git",
+                "reference": "d3e26fb679081bc5f4427d86cb8d4275e835e094"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/6fb27d5ae4f0816fa63adebe86af8c458e7fe4f4",
+                "reference": "d3e26fb679081bc5f4427d86cb8d4275e835e094",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "libs/Smarty.class.php",
+                    "libs/SmartyBC.class.php",
+                    "libs/sysplugins/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Monte Ohrt",
+                    "email": "monte@ohrt.com"
+                },
+                {
+                    "name": "Uwe Tews",
+                    "email": "uwe.tews@googlemail.com"
+                },
+                {
+                    "name": "Rodney Rehm",
+                    "email": "rodney.rehm@medialize.de"
+                }
+            ],
+            "description": "Smarty - the compiling PHP template engine",
+            "homepage": "http://www.smarty.net",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2014-12-30 15:43:42"
+        },
+        {
+            "name": "statik/theme-fuel",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:statikbe/ride-statik-theme-fuel.git",
+                "reference": "b886fe86c811fd5f3f88bbe18faedf286f355430"
+            },
+            "require": {
+                "ride/app-template-smarty": ">=0.2.0",
+                "ride/lib-cms": ">=0.10.0",
+                "ride/lib-common": ">=0.3.1",
+                "ride/lib-i18n": ">=0.1.0",
+                "ride/lib-template": ">=0.2.0",
+                "ride/theme-asphalt": ">=0.9.0",
+                "ride/theme-asphalt-cms": ">=0.9.0",
+                "ride/web-template-smarty": ">=0.3.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "statik\\ride\\layout\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bart Verbruggen",
+                    "email": "bart@statik.be"
+                },
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "The default statik theme for the CMS application of the Ride framework",
+            "time": "2015-03-27 15:25:29"
+        },
+        {
+            "name": "statik/web-form-wysiwyg-redactor",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:statikbe/ride-statik-form-wysiwyg-redactor.git",
+                "reference": "0738d743374f22096ec3d14afe49c5d788ee48c2"
+            },
+            "require": {
+                "ride/web-form": ">=0.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "statik\\library\\form\\row\\RedactorWysiwygRow": [
+                        "src/"
+                    ]
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Redactor form integration of the Ride framework",
+            "time": "2015-04-10 13:10:44"
+        },
+        {
+            "name": "statik/web-security-oauth",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:statikbe/ride-statik-security-oauth.git",
+                "reference": "ee279b73ca787ed42a1ccf433c4ca3dcc6cfe454"
+            },
+            "require": {
+                "ride/lib-common": ">=0.4.0",
+                "ride/lib-security": ">=0.1.7",
+                "ride/lib-security-oauth": ">=0.2.0",
+                "ride/lib-validation": ">=0.2.0",
+                "ride/web-security-oauth": ">=0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "statik\\oauth\\StatikConnectPolicy": [
+                        "src/"
+                    ]
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "OAuth implementation for a Statik Ride application.",
+            "time": "2015-03-24 11:50:49"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "ride/web-cms-security": 20,
+        "smarty/smarty": 20,
+        "ride/wba-cms-assets": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
