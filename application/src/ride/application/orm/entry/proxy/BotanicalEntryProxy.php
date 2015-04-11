@@ -3,20 +3,19 @@
 namespace ride\application\orm\entry\proxy;
 
 use ride\application\orm\asset\entry\AssetEntry;
-use ride\application\orm\entry\GinEntry;
-use ride\application\orm\entry\TonicEntry;
+use ride\application\orm\entry\BotanicalEntry;
 use ride\library\orm\entry\EntryProxy;
 use ride\library\orm\model\Model;
 
 /**
- * Generated proxy for an entry of the Gin model
+ * Generated proxy for an entry of the Botanical model
  * 
  * NOTE: Do not edit this class
  */
-class GinEntryProxy extends GinEntry implements EntryProxy {
+class BotanicalEntryProxy extends BotanicalEntry implements EntryProxy {
 
     /**
-     * Instance of the Gin model
+     * Instance of the Botanical model
      * @var \ride\library\orm\model\Model
      */
     protected $_model;
@@ -34,8 +33,8 @@ class GinEntryProxy extends GinEntry implements EntryProxy {
     private $loadedFields;
 
     /**
-     * Construct a new Gin entry proxy
-     * @param \ride\library\orm\model\Model $model Instance of the Gin model
+     * Construct a new Botanical entry proxy
+     * @param \ride\library\orm\model\Model $model Instance of the Botanical model
      * @param integer $id Id of the entry
      * @param array $properties Values of the known properties
      * @return null
@@ -164,7 +163,7 @@ class GinEntryProxy extends GinEntry implements EntryProxy {
     }
 
     /**
-     * Loads the values of the properties of this Gin entry
+     * Loads the values of the properties of this Botanical entry
      * @return null
      */
     private function loadProperties() {
@@ -182,7 +181,6 @@ class GinEntryProxy extends GinEntry implements EntryProxy {
             $this->loadedFields['title'] = true;
             $this->loadedFields['image'] = true;
             $this->loadedFields['body'] = true;
-            $this->loadedFields['tonic'] = true;
             $this->loadedFields['version'] = true;
             $this->loadedFields['slug'] = true;
             $this->loadedFields['dateAdded'] = true;
@@ -208,11 +206,6 @@ class GinEntryProxy extends GinEntry implements EntryProxy {
             $this->loadedValues['body'] = $entry->loadedValues['body'];
             $this->loadedFields['body'] = true;
         }
-        if (!isset($this->loadedFields['tonic'])) {
-            $this->tonic = $entry->getTonic();
-            $this->loadedValues['tonic'] = $entry->loadedValues['tonic'];
-            $this->loadedFields['tonic'] = true;
-        }
         if (!isset($this->loadedFields['version'])) {
             $this->version = $entry->getVersion();
             $this->loadedValues['version'] = $entry->loadedValues['version'];
@@ -236,7 +229,7 @@ class GinEntryProxy extends GinEntry implements EntryProxy {
     }
 
     /**
-     * Loads the value of a relation field of this Gin entry
+     * Loads the value of a relation field of this Botanical entry
      * @param string $fieldName Name of the relation field
      * @return null
      */
@@ -355,61 +348,6 @@ class GinEntryProxy extends GinEntry implements EntryProxy {
         }
         
         return parent::getBody();
-    }
-
-    /**
-     * @param \ride\application\orm\entry\TonicEntry $tonic 
-     * @return null
-     */
-    public function setTonic(TonicEntry $tonic = NULL) {
-        $hasOldValue = false;
-        $oldValue = null;
-        if (array_key_exists('tonic', $this->loadedValues)) {
-            $oldValue = $this->loadedValues['tonic'];
-            $hasOldValue = true;
-        } elseif ($this->id && !isset($this->loadedFields['tonic'])) {
-            $oldValue = $this->getTonic();
-            $hasOldValue = true;
-        }
-        if ($hasOldValue && ((!$oldValue && !$tonic) || ($oldValue && $tonic && $oldValue->getId() === $tonic->getId())))  {
-            return;
-        }
-        
-        $this->loadedFields['tonic'] = true;
-        
-        return parent::setTonic($tonic);
-    }
-
-    /**
-     * @return \ride\application\orm\entry\TonicEntry
-     */
-    public function getTonic() {
-        if (!isset($this->loadedFields['tonic'])) {
-            $this->loadProperties();
-        }
-        
-        return parent::getTonic();
-    }
-
-    /**
-     * @param array $garnish 
-     * @return null
-     */
-    public function setGarnish(array $garnish = array()) {
-        $this->loadedFields['garnish'] = true;
-        
-        return parent::setGarnish($garnish);
-    }
-
-    /**
-     * @return array
-     */
-    public function getGarnish() {
-        if (!isset($this->loadedFields['garnish'])) {
-            $this->loadRelation('garnish');
-        }
-        
-        return parent::getGarnish();
     }
 
     /**
