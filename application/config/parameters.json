@@ -4,7 +4,7 @@
     "system.secret": "2faaf98aa51a8696671fa",
     "system.name": "INTGIN",
     "cms.repository.branch": "content-dev",
-    "cms.repository.url": "git@statik.beanstalkapp.com:\/statik\/intgin.git",
+    "cms.repository.url": "git@github.com:bartverbruggen\/intgin.git",
     "theme.intgin.region.content": "content",
     "theme.intgin.region.header": "header",
     "theme.intgin.region.footer": "footer",
