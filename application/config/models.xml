@@ -9,13 +9,8 @@
         <field name="image" model="Asset" relation="belongsTo">
             <option name="scaffold.form.type" value="assets"/>
         </field>
-        <field name="body" type="wysiwyg"> </field>
-        <field name="tonic" model="Tonic" relation="belongsTo">
-            <option name="scaffold.form.type" value="select"/>
-        </field>
-        <field name="garnish" model="Garnish" relation="hasMany" order="true">
-            <option name="scaffold.form.type" value="select" />
-        </field>
+        <field name="body" type="wysiwyg"></field>
+        <field name="mixes" model="Mix" relation="hasMany"></field>
 
         <format name="title">{title}</format>
         <format name="teaser">{body|truncate:250}</format>
@@ -28,6 +23,14 @@
         <option name="order.field" value="title" />
         <option name="scaffold.expose" value="true" />
         <option name="scaffold.title" value="title.gin" />
+    </model>
+    <model name="Mix">
+        <field name="tonic" model="Tonic" relation="belongsTo">
+            <option name="scaffold.form.type" value="select"/>
+        </field>
+        <field name="garnish" model="Garnish" relation="hasMany" order="true">
+            <option name="scaffold.form.type" value="select" />
+        </field>
     </model>
     <model name="Tonic">
         <field name="title" type="string">

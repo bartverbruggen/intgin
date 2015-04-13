@@ -4,8 +4,7 @@ namespace ride\application\orm\entry;
 
 use \InvalidArgumentException;
 use ride\application\orm\asset\entry\AssetEntry as AliasAssetEntry;
-use ride\application\orm\entry\GarnishEntry as AliasGarnishEntry;
-use ride\application\orm\entry\TonicEntry as AliasTonicEntry;
+use ride\application\orm\entry\MixEntry as AliasMixEntry;
 use ride\library\orm\entry\DatedEntry;
 use ride\library\orm\entry\GenericEntry;
 use ride\library\orm\entry\SluggedEntry;
@@ -34,14 +33,9 @@ class GinEntry extends GenericEntry implements DatedEntry, SluggedEntry, Version
     protected $body;
 
     /**
-     * @var \ride\application\orm\entry\TonicEntry
-     */
-    protected $tonic = NULL;
-
-    /**
      * @var array
      */
-    protected $garnish = array();
+    protected $mixes = array();
 
     /**
      * @var integer
@@ -84,12 +78,8 @@ class GinEntry extends GenericEntry implements DatedEntry, SluggedEntry, Version
             return self::STATE_DIRTY;
         }
         
-        if ($this->tonic && $this->tonic->getEntryState() !== self::STATE_CLEAN) {
-            return self::STATE_DIRTY;
-        }
-        
-        if ($this->garnish) {
-            foreach ($this->garnish as $value) {
+        if ($this->mixes) {
+            foreach ($this->mixes as $value) {
                 if ($value->getEntryState() !== self::STATE_CLEAN) {
                     return self::STATE_DIRTY;
                 }
@@ -170,37 +160,13 @@ class GinEntry extends GenericEntry implements DatedEntry, SluggedEntry, Version
     }
 
     /**
-     * @param \ride\application\orm\entry\TonicEntry $tonic 
+     * @param \ride\application\orm\entry\MixEntry $entry 
      * @return null
      */
-    public function setTonic(AliasTonicEntry $tonic = NULL) {
-        $isClean = false;
-        if ((!$this->tonic && !$tonic) || ($this->tonic && $tonic && $this->tonic->getId() === $tonic->getId())) {
-            $isClean = true;
-        }
+    public function addToMixes(AliasMixEntry $entry) {
+        $this->getMixes();
         
-        $this->tonic = $tonic;
-        
-        if (!$isClean && $this->entryState === self::STATE_CLEAN) {
-            $this->entryState = self::STATE_DIRTY;
-        }
-    }
-
-    /**
-     * @return \ride\application\orm\entry\TonicEntry
-     */
-    public function getTonic() {
-        return $this->tonic;
-    }
-
-    /**
-     * @param \ride\application\orm\entry\GarnishEntry $entry 
-     * @return null
-     */
-    public function addToGarnish(AliasGarnishEntry $entry) {
-        $this->getGarnish();
-        
-        $this->garnish[] = $entry;
+        $this->mixes[] = $entry;
         
         if ($this->entryState === self::STATE_CLEAN) {
             $this->entryState = self::STATE_DIRTY;
@@ -208,17 +174,17 @@ class GinEntry extends GenericEntry implements DatedEntry, SluggedEntry, Version
     }
 
     /**
-     * @param \ride\application\orm\entry\GarnishEntry $entry 
+     * @param \ride\application\orm\entry\MixEntry $entry 
      * @return null
      */
-    public function removeFromGarnish(AliasGarnishEntry $entry) {
-        $this->getGarnish();
+    public function removeFromMixes(AliasMixEntry $entry) {
+        $this->getMixes();
         
         $status = false;
         
-        foreach ($this->garnish as $garnishIndex => $garnishValue) {
-            if ($garnishValue === $entry || $garnishValue->getId() === $entry->getId()) {
-                unset($this->garnish[$garnishIndex]);
+        foreach ($this->mixes as $mixesIndex => $mixesValue) {
+            if ($mixesValue === $entry || $mixesValue->getId() === $entry->getId()) {
+                unset($this->mixes[$mixesIndex]);
         
                 $status = true;
         
@@ -234,17 +200,17 @@ class GinEntry extends GenericEntry implements DatedEntry, SluggedEntry, Version
     }
 
     /**
-     * @param array $garnish 
+     * @param array $mixes 
      * @return null
      */
-    public function setGarnish(array $garnish = array()) {
-        foreach ($garnish as $garnishIndex => $garnishValue) {
-            if (!$garnishValue instanceof AliasGarnishEntry) {
-                throw new InvalidArgumentException("Could not set garnish: value on index $garnishIndex is not an instance of ride\\application\\orm\\entry\\GarnishEntry");
+    public function setMixes(array $mixes = array()) {
+        foreach ($mixes as $mixesIndex => $mixesValue) {
+            if (!$mixesValue instanceof AliasMixEntry) {
+                throw new InvalidArgumentException("Could not set mixes: value on index $mixesIndex is not an instance of ride\\application\\orm\\entry\\MixEntry");
             }
         }
         
-        $this->garnish = $garnish;
+        $this->mixes = $mixes;
         
         if ($this->entryState === self::STATE_CLEAN) {
             $this->entryState = self::STATE_DIRTY;
@@ -254,8 +220,8 @@ class GinEntry extends GenericEntry implements DatedEntry, SluggedEntry, Version
     /**
      * @return array
      */
-    public function getGarnish() {
-        return $this->garnish;
+    public function getMixes() {
+        return $this->mixes;
     }
 
     /**

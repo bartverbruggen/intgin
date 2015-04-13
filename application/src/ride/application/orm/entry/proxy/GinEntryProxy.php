@@ -4,7 +4,6 @@ namespace ride\application\orm\entry\proxy;
 
 use ride\application\orm\asset\entry\AssetEntry;
 use ride\application\orm\entry\GinEntry;
-use ride\application\orm\entry\TonicEntry;
 use ride\library\orm\entry\EntryProxy;
 use ride\library\orm\model\Model;
 
@@ -182,7 +181,6 @@ class GinEntryProxy extends GinEntry implements EntryProxy {
             $this->loadedFields['title'] = true;
             $this->loadedFields['image'] = true;
             $this->loadedFields['body'] = true;
-            $this->loadedFields['tonic'] = true;
             $this->loadedFields['version'] = true;
             $this->loadedFields['slug'] = true;
             $this->loadedFields['dateAdded'] = true;
@@ -207,11 +205,6 @@ class GinEntryProxy extends GinEntry implements EntryProxy {
             $this->body = $entry->getBody();
             $this->loadedValues['body'] = $entry->loadedValues['body'];
             $this->loadedFields['body'] = true;
-        }
-        if (!isset($this->loadedFields['tonic'])) {
-            $this->tonic = $entry->getTonic();
-            $this->loadedValues['tonic'] = $entry->loadedValues['tonic'];
-            $this->loadedFields['tonic'] = true;
         }
         if (!isset($this->loadedFields['version'])) {
             $this->version = $entry->getVersion();
@@ -358,58 +351,24 @@ class GinEntryProxy extends GinEntry implements EntryProxy {
     }
 
     /**
-     * @param \ride\application\orm\entry\TonicEntry $tonic 
+     * @param array $mixes 
      * @return null
      */
-    public function setTonic(TonicEntry $tonic = NULL) {
-        $hasOldValue = false;
-        $oldValue = null;
-        if (array_key_exists('tonic', $this->loadedValues)) {
-            $oldValue = $this->loadedValues['tonic'];
-            $hasOldValue = true;
-        } elseif ($this->id && !isset($this->loadedFields['tonic'])) {
-            $oldValue = $this->getTonic();
-            $hasOldValue = true;
-        }
-        if ($hasOldValue && ((!$oldValue && !$tonic) || ($oldValue && $tonic && $oldValue->getId() === $tonic->getId())))  {
-            return;
-        }
+    public function setMixes(array $mixes = array()) {
+        $this->loadedFields['mixes'] = true;
         
-        $this->loadedFields['tonic'] = true;
-        
-        return parent::setTonic($tonic);
-    }
-
-    /**
-     * @return \ride\application\orm\entry\TonicEntry
-     */
-    public function getTonic() {
-        if (!isset($this->loadedFields['tonic'])) {
-            $this->loadProperties();
-        }
-        
-        return parent::getTonic();
-    }
-
-    /**
-     * @param array $garnish 
-     * @return null
-     */
-    public function setGarnish(array $garnish = array()) {
-        $this->loadedFields['garnish'] = true;
-        
-        return parent::setGarnish($garnish);
+        return parent::setMixes($mixes);
     }
 
     /**
      * @return array
      */
-    public function getGarnish() {
-        if (!isset($this->loadedFields['garnish'])) {
-            $this->loadRelation('garnish');
+    public function getMixes() {
+        if (!isset($this->loadedFields['mixes'])) {
+            $this->loadRelation('mixes');
         }
         
-        return parent::getGarnish();
+        return parent::getMixes();
     }
 
     /**

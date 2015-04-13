@@ -5,7 +5,6 @@
 application/config/dev
 application/data/cache
 application/data/log
-application/data/cms
 application/data/session
 application/data/upload
 application/*php
