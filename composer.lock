@@ -2596,12 +2596,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/all-ride/ride-theme-asphalt.git",
-                "reference": "acb78cb79499d57b0f362cfdf25a00405bb7200f"
+                "reference": "5aa1ab9f4cad418b874449a1f263e2bfff7dd31c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-theme-asphalt/zipball/acb78cb79499d57b0f362cfdf25a00405bb7200f",
-                "reference": "acb78cb79499d57b0f362cfdf25a00405bb7200f",
+                "url": "https://api.github.com/repos/all-ride/ride-theme-asphalt/zipball/5aa1ab9f4cad418b874449a1f263e2bfff7dd31c",
+                "reference": "5aa1ab9f4cad418b874449a1f263e2bfff7dd31c",
                 "shasum": ""
             },
             "require": {
@@ -2633,7 +2633,7 @@
                 }
             ],
             "description": "Asphalt theme for the base web application of the Ride framework",
-            "time": "2015-04-09 15:04:07"
+            "time": "2015-04-14 07:40:06"
         },
         {
             "name": "ride/theme-asphalt-cms",
