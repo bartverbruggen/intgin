@@ -21,7 +21,9 @@
         <option name="behaviour.slug" value="title" />
         <option name="behaviour.version" value="true" />
         <option name="order.field" value="title" />
+        <option name="cms.node" value="true" />
         <option name="scaffold.expose" value="true" />
+        <option name="rest.expose" value="true" />
         <option name="scaffold.title" value="title.gin" />
     </model>
     <model name="Mix">
