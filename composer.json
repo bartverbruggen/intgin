@@ -33,7 +33,8 @@
         "smarty/smarty": "dev-master#d3e26fb679081bc5f4427d86cb8d4275e835e094",
         "ride/app-mail-mandrill": "*",
         "ride/cli-app": "*",
-        "ride/wba-cms-assets": "dev-master"
+        "ride/wba-cms-assets": "dev-master",
+        "ride/web-cms-search": "dev-master"
     },
     "repositories": [
         {

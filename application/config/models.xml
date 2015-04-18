@@ -1,5 +1,5 @@
 <models>
-    <model name="Gin">
+    <model name="Gin" modelClass="statik\intgin\model\GinModel">
         <field name="title" type="string">
             <option name="scaffold.order" value="1" />
             <option name="scaffold.search" value="1" />
@@ -11,6 +11,10 @@
         </field>
         <field name="body" type="wysiwyg"></field>
         <field name="mixes" model="Mix" relation="hasMany"></field>
+        <field name="isHighlighted" type="boolean">
+            <option name="label.name" value="label.highlighted" />
+            <option name="label.description" value="label.highlighted.description" />
+        </field>
 
         <format name="title">{title}</format>
         <format name="teaser">{body|truncate:250}</format>

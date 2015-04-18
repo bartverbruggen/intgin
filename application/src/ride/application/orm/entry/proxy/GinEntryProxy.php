@@ -181,6 +181,7 @@ class GinEntryProxy extends GinEntry implements EntryProxy {
             $this->loadedFields['title'] = true;
             $this->loadedFields['image'] = true;
             $this->loadedFields['body'] = true;
+            $this->loadedFields['isHighlighted'] = true;
             $this->loadedFields['version'] = true;
             $this->loadedFields['slug'] = true;
             $this->loadedFields['dateAdded'] = true;
@@ -205,6 +206,11 @@ class GinEntryProxy extends GinEntry implements EntryProxy {
             $this->body = $entry->getBody();
             $this->loadedValues['body'] = $entry->loadedValues['body'];
             $this->loadedFields['body'] = true;
+        }
+        if (!isset($this->loadedFields['isHighlighted'])) {
+            $this->isHighlighted = $entry->isHighlighted();
+            $this->loadedValues['isHighlighted'] = $entry->loadedValues['isHighlighted'];
+            $this->loadedFields['isHighlighted'] = true;
         }
         if (!isset($this->loadedFields['version'])) {
             $this->version = $entry->getVersion();
@@ -369,6 +375,40 @@ class GinEntryProxy extends GinEntry implements EntryProxy {
         }
         
         return parent::getMixes();
+    }
+
+    /**
+     * @param boolean $isHighlighted 
+     * @return null
+     */
+    public function setIsHighlighted($isHighlighted) {
+        $hasOldValue = false;
+        $oldValue = null;
+        if (array_key_exists('isHighlighted', $this->loadedValues)) {
+            $oldValue = $this->loadedValues['isHighlighted'];
+            $hasOldValue = true;
+        } elseif ($this->id && !isset($this->loadedFields['isHighlighted'])) {
+            $oldValue = $this->getIsHighlighted();
+            $hasOldValue = true;
+        }
+        if ($hasOldValue && $oldValue === $isHighlighted)  {
+            return;
+        }
+        
+        $this->loadedFields['isHighlighted'] = true;
+        
+        return parent::setIsHighlighted($isHighlighted);
+    }
+
+    /**
+     * @return boolean
+     */
+    public function isHighlighted() {
+        if (!isset($this->loadedFields['isHighlighted'])) {
+            $this->loadProperties();
+        }
+        
+        return parent::isHighlighted();
     }
 
     /**

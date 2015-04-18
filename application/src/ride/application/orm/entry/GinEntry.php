@@ -38,6 +38,11 @@ class GinEntry extends GenericEntry implements DatedEntry, SluggedEntry, Version
     protected $mixes = array();
 
     /**
+     * @var boolean
+     */
+    protected $isHighlighted;
+
+    /**
      * @var integer
      */
     protected $version;
@@ -222,6 +227,29 @@ class GinEntry extends GenericEntry implements DatedEntry, SluggedEntry, Version
      */
     public function getMixes() {
         return $this->mixes;
+    }
+
+    /**
+     * @param boolean $isHighlighted 
+     * @return null
+     */
+    public function setIsHighlighted($isHighlighted) {
+        if ($this->isHighlighted === $isHighlighted) {
+            return;
+        }
+        
+        $this->isHighlighted = $isHighlighted;
+        
+        if ($this->entryState === self::STATE_CLEAN) {
+            $this->entryState = self::STATE_DIRTY;
+        }
+    }
+
+    /**
+     * @return boolean
+     */
+    public function isHighlighted() {
+        return $this->isHighlighted;
     }
 
     /**

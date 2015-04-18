@@ -1,5 +1,7 @@
 {
     "title.gin": "Gin",
     "title.tonic": "Tonic",
-    "title.garnish": "Garnish"
+    "title.garnish": "Garnish",
+    "label.highlighted": "Highlighted",
+    "label.highlighted.description": "Highlight this item"
 }
