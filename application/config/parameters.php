@@ -24,13 +24,18 @@ $willCacheConfig = false;
 //}
 
 //// detect environment based on path
-//switch (__DIR__) {
-//    case "/path/to/production":
-//        $environment = "prod";
-//        $willCacheConfig = true;
-//
-//        break;
-//}
+switch (__DIR__) {
+    case "/opt/www/netnatiecv/web/gin-republic.com/application/config":
+        $environment = "prod";
+        $willCacheConfig = true;
+
+        break;
+    case "/opt/www/netnatiecv/web/staging.gin-republic.com/application/config":
+        $environment = "stag";
+        $willCacheConfig = true;
+
+        break;
+}
 
 /**
  * Parameters for a Ride system
