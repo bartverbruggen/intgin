@@ -1,0 +1,5 @@
+{
+    "google.auth.redirect.uri": "http://staging.gin-republic.com/login/google",
+    "cms.widget.offset": 1000,
+    "database.connection.intgit": "mysql:\/\/intgin:LQfivtxXK64Zpr@mysqlhost\/intgin"
+}
