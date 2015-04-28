@@ -1,0 +1,9 @@
+{
+    "dependencies": [
+        {
+            "interfaces": "ride\\library\\cms\\widget\\Widget",
+            "class": "intgin\\controller\\widget\\MixSuggestionWidget",
+            "id": "intgin.mix.suggestion"
+        }
+    ]
+}

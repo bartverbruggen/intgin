@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "975bd467604572f5fea2f4cd9644a624",
+    "hash": "47e254588d4f204170ef2ccaf247e3bc",
     "packages": [
         {
             "name": "mandrill/mandrill",
@@ -4040,9 +4040,11 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "ride/web-cms-security": 20,
+        "oodle/krumo": 20,
         "smarty/smarty": 20,
         "ride/wba-cms-assets": 20,
-        "ride/web-cms-search": 20
+        "ride/web-cms-search": 20,
+        "ride/app-mail-mandrill": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -41,7 +41,8 @@
       background-color: $gray-0;
     }
   }
-  &--brand {
+  &--brand,
+  &--primary {
     @include button-variant($white, $color-brand-primary, $color-brand-primary);
   }
   @each $type, $color in $notice-colors {

@@ -1,7 +1,12 @@
 {
-    "title.gin": "Gin",
-    "title.tonic": "Tonic",
-    "title.garnish": "Garnish",
+    "button.suggest.mix": "Submit your mix suggestion",
+    "label.email": "Email",
     "label.highlighted": "Highlighted",
-    "label.highlighted.description": "Highlight this item"
+    "label.highlighted.description": "Highlight this item",
+    "title.garnish": "Garnish",
+    "title.gin": "Gin",
+    "title.gin.mix.suggestion": "Gin Tonic Suggestion",
+    "title.gin.suggestion": "Your mix suggestion for",
+    "title.tonic": "Tonic",
+    "widget.intgin.mix.suggestion": "Gin Suggestion Widget"
 }

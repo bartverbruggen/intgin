@@ -1,6 +1,6 @@
 <?php
 
-namespace statik\intgin\controller;
+namespace intgin\controller;
 
 use ride\library\orm\OrmManager;
 

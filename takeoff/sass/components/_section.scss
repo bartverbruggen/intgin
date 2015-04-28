@@ -1,7 +1,7 @@
 .section {
-  padding: 0 0 $rh-sml;
+  padding: 0 0 $rh-lrg;
   &:first-child {
-    padding-top: $rh-sml;
+    padding-top: $rh-lrg;
   }
   &--border {
     border-bottom: 1px solid $gray-25;
@@ -19,7 +19,7 @@
     padding: 0 0 $rh-xxs;
   }
   &--background {
-    background: $white url(../img/bg-pattern.png);
+    background: $gray-0;
   }
   &--no-padding {
     padding: 0 !important;
@@ -30,14 +30,14 @@
 .section--border-bottom + .section ,
 .section--background + .section,
 .section--no-padding + .section {
-  padding-top: $rh-sml;
+  padding-top: $rh-lrg;
 }
 .section--background + .section--background {
   padding-top: 0;
 }
 .section--actions + .section--background,
 .section--background + .section--actions {
-  padding-top: $rh-sml;
+  padding-top: $rh-lrg;
 }
 
 .section--no-padding {

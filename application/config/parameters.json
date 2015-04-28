@@ -1,8 +1,10 @@
 {
     "google.client.id": "748944992230-06hnbab1ud0rtthpb186hih4tu6pcsop.apps.googleusercontent.com",
     "google.client.secret": "OfPSIysY_sxGi8Bh3XD1p2mr",
+    "system.session.timeout": 1800,
     "system.secret": "2faaf98aa51a8696671fa",
     "system.name": "INTGIN",
+    "system.image": "gd",
     "cms.repository.branch": "content-dev",
     "cms.repository.urlxxx": "git@github.com:bartverbruggen\/intgin.git",
     "theme.intgin.region.content": "content",
@@ -12,6 +14,6 @@
     "theme.intgin.engine.smarty": "smarty",
     "theme.intgin.name": "INTGIN",
     "theme.intgin.parent": "fuel",
-    "mail.mandrill.apikey": "bleh",
-    "mail.mandrill.subaccount": "bleh"
+    "mail.mandrill.apikey": "jMULQwGpJI2aHlpjIZDfEg",
+    "template.theme": "asphalt"
 }

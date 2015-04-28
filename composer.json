@@ -29,12 +29,12 @@
         "statik/web-security-oauth": "*",
         "statik/web-form-wysiwyg-redactor": "*",
 
-        "oodle/krumo": "*",
+        "oodle/krumo": "dev-master#81b834712de6f2a7a38349f7720f4470bede27dc",
         "smarty/smarty": "dev-master#d3e26fb679081bc5f4427d86cb8d4275e835e094",
-        "ride/app-mail-mandrill": "*",
         "ride/cli-app": "*",
         "ride/wba-cms-assets": "dev-master",
-        "ride/web-cms-search": "dev-master"
+        "ride/web-cms-search": "dev-master",
+        "ride/app-mail-mandrill": "dev-master"
     },
     "repositories": [
         {

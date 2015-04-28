@@ -2,7 +2,7 @@
     "routes": [
         {
             "path": "/%locale%/gin/search",
-            "controller": "statik\\intgin\\controller\\ApiController",
+            "controller": "intgin\\controller\\ApiController",
             "action": "ginSearchAction",
             "id": "api.search.gin"
         }

@@ -1,5 +1,5 @@
 <models>
-    <model name="Gin" modelClass="statik\intgin\model\GinModel">
+    <model name="Gin" modelClass="intgin\model\GinModel">
         <field name="title" type="string">
             <option name="scaffold.order" value="1" />
             <option name="scaffold.search" value="1" />
@@ -85,5 +85,29 @@
         <option name="order.field" value="title" />
         <option name="scaffold.expose" value="true" />
         <option name="scaffold.title" value="title.garnish" />
+    </model>
+    <model name="MixSuggestion">
+        <field name="gin" model="Gin" relation="belongsTo">
+            <option name="scaffold.form.omit" value="1"/>
+        </field>
+        <field name="name" type="string">
+            <option name="label.name" value="label.name"/>
+            <validation name="required"/>
+        </field>
+        <field name="email" type="email" />
+        <field name="tonic" type="string" />
+        <field name="garnish" type="string" />
+        <field name="message" type="text" />
+
+        <format name="title">{gin.title}</format>
+        <format name="date">{dateAdded|date:d/m/Y}</format>
+        <format name="teaser">{name} - {email}</format>
+
+        <option name="behaviour.date" value="true"/>
+        <option name="behaviour.log" value="true"/>
+        <option name="behaviour.version" value="true"/>
+        <option name="scaffold.order" value="dateAdded"/>
+        <option name="scaffold.expose" value="1"/>
+        <option name="scaffold.title" value="title.gin.mix.suggestion"/>
     </model>
 </models>

@@ -1,6 +1,6 @@
 <?php
 
-namespace statik\intgin\model;
+namespace intgin\model;
 
 use ride\library\orm\model\GenericModel;
 
