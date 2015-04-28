@@ -4,7 +4,7 @@
     "system.session.timeout": 1800,
     "system.secret": "2faaf98aa51a8696671fa",
     "system.name": "INTGIN",
-    "system.image": "gd",
+    "system.image": "imagick",
     "cms.repository.branch": "content-dev",
     "cms.repository.urlxxx": "git@github.com:bartverbruggen\/intgin.git",
     "theme.intgin.region.content": "content",
