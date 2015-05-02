@@ -3,8 +3,7 @@
   @include transitions((background, border));
   display: inline-block;
   padding: 15px 20px;
-  border-style: solid;
-  border-width: 0 2px 2px 0;
+  border: none;
   border-radius: $border-radius-base;
   color: $white;
   line-height: 1;

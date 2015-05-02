@@ -2,6 +2,7 @@
 
 namespace intgin\controller\widget;
 
+use ride\library\http\Cookie;
 use ride\library\cms\node\NodeModel;
 use ride\library\mail\transport\Transport;
 use ride\library\orm\OrmManager;
@@ -38,51 +39,58 @@ class MixSuggestionWidget extends AbstractWidget implements StyleWidget{
         $content = $this->getContext('content');
         $gin = $content->data;
 
-
         $ginSuggestionModel = $orm->getMixSuggestionModel();
         $ginSuggestion = $ginSuggestionModel->createEntry();
 
+        // check for known visitors
+        $knownVisitor = false;
+        if(isset($_COOKIE['visitor'])) {
+            $knownVisitor = json_decode($_COOKIE['visitor']);
+            $ginSuggestion->setName($knownVisitor->name);
+            $ginSuggestion->setEmail($knownVisitor->email);
+        }
+
         $form = $this->createFormBuilder($ginSuggestion);
-        $form->addRow('name', 'string', array (
+        $form->addRow('name', 'string', array(
             'label' => $translator->translate('label.name'),
             'filters' => array(
                 'trim' => array(),
             ),
-            'validators' => array (
-                'required' => array ()
+            'validators' => array(
+                'required' => array()
             )
         ));
-        $form->addRow('email', 'string', array (
+        $form->addRow('email', 'email', array(
             'label' => $translator->translate('label.email'),
             'filters' => array(
                 'trim' => array(),
             ),
-            'validators' => array (
-                'required' => array ()
+            'validators' => array(
+                'required' => array()
             )
         ));
-        $form->addRow('tonic', 'string', array (
+        $form->addRow('tonic', 'string', array(
             'label' => $translator->translate('title.tonic'),
             'filters' => array(
                 'trim' => array(),
             )
         ));
-        $form->addRow('garnish', 'string', array (
+        $form->addRow('garnish', 'string', array(
             'label' => $translator->translate('title.garnish'),
             'filters' => array(
                 'trim' => array(),
             )
         ));
-        $form->addRow('message', 'text', array (
+        $form->addRow('message', 'text', array(
             'label' => $translator->translate('label.message'),
             'filters' => array(
                 'trim' => array(),
             ),
-            'validators' => array (
-                'required' => array ()
+            'validators' => array(
+                'required' => array()
             )
         ));
-        $form->addRow('mobile', 'component', array (
+        $form->addRow('mobile', 'component', array(
             'component' => $honeyPotComponent,
             'embed' => true
         ));
@@ -92,6 +100,13 @@ class MixSuggestionWidget extends AbstractWidget implements StyleWidget{
             try {
                 $form->validate();
                 $tmpGinSuggestion = $form->getData();
+
+                // $visitor = array(
+                //     'name' => $tmpGinSuggestion->name,
+                //     'email' => $tmpGinSuggestion->email,
+                // );
+                // $cookie = new Cookie('visitor', json_encode($visitor));
+                // $this->response->setCookie($cookie);
 
                 $tmpGinSuggestion->setGin($gin);
                 $ginSuggestionModel->save($tmpGinSuggestion);
@@ -111,6 +126,7 @@ class MixSuggestionWidget extends AbstractWidget implements StyleWidget{
                 else {
                     $this->addSuccess('success.message.sent');
                 }
+
                 $this->response->setRedirect($url);
 
                 return;
@@ -120,8 +136,9 @@ class MixSuggestionWidget extends AbstractWidget implements StyleWidget{
                 $this->addError('error.honeypot');
             }
         }
-        $view = $this->setTemplateView($this->getTemplate(self::TEMPLATE_NAMESPACE . '/default'), array (
+        $view = $this->setTemplateView($this->getTemplate(self::TEMPLATE_NAMESPACE . '/default'), array(
             'form' => $form->getView(),
+            'knownVisitor' => $knownVisitor,
             'ginTitle' => $content->data->getTitle()
         ));
         $form->processView($view);
@@ -154,7 +171,7 @@ class MixSuggestionWidget extends AbstractWidget implements StyleWidget{
     public function propertiesAction(NodeModel $nodeModel) {
         $translator = $this->getTranslator();
 
-        $data = array (
+        $data = array(
             'recipient'             => $this->getRecipient(),
             'subject'               => $this->getSubject(),
             'finishNode'            => $this->properties->getWidgetProperty('finish.node'),
@@ -162,16 +179,16 @@ class MixSuggestionWidget extends AbstractWidget implements StyleWidget{
         );
 
         $form = $this->createFormBuilder($data);
-        $form->addRow('recipient', 'email', array (
+        $form->addRow('recipient', 'email', array(
             'label' => $translator->translate('label.recipient'),
-            'filters' => array (
-                'trim' => array (),
+            'filters' => array(
+                'trim' => array(),
             ),
-            'validators' => array (
-                'required' => array (),
+            'validators' => array(
+                'required' => array(),
             )
         ));
-        $form->addRow('subject', 'string', array (
+        $form->addRow('subject', 'string', array(
             'label'   => $translator->translate('label.subject'),
             'filters' => array (
                 'trim' => array (),
@@ -256,8 +273,6 @@ class MixSuggestionWidget extends AbstractWidget implements StyleWidget{
         $message->setSubject($this->getSubject() . ' ' . $entry->getGin()->getTitle());
         $message->setIsHtmlMessage(true);
         $message->setMessage($this->createMessage($entry));
-
-        var_dump($message);
 
         $transport->send($message);
     }

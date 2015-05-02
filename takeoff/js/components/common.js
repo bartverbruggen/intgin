@@ -15,6 +15,7 @@ app.common = (function($, undefined) {
 
     // _gallery();
     _flyoutNavigation();
+    _toggleKnowVisitor();
   };
 
   var _windowResize = function() {
@@ -29,6 +30,18 @@ app.common = (function($, undefined) {
       back: function() {
         return '<span class="icon -previous"></span> Terug';
       }
+    });
+  };
+
+  var _toggleKnowVisitor = function() {
+    $document.on('click', '#toggle-known-visitor', function(e) {
+      e.preventDefault();
+      var $this = $(this),
+          target = $this.data('target'),
+          $item = $this.closest('.form__item');
+
+      $item.remove();
+      $(target).removeClass('superhidden');
     });
   };
 
