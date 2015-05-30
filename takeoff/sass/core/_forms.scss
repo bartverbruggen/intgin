@@ -34,6 +34,7 @@
 
   &--inline {
     display: flex;
+    flex-wrap: wrap;
     .form__item {
       flex: 1 1 150px;
       margin-bottom: 0;
@@ -291,4 +292,49 @@ p.form__label {
   li {
     margin-top: 5px;
   }
+}
+
+
+// Typeahead
+.twitter-typeahead {
+  @include cf;
+  display: block;
+  width: 100%;
+  clear: both;
+}
+.tt-dropdown-menu {
+  @extend %ext-input-style;
+  padding: 0;
+  border-top: 0;
+  position: relative;
+  z-index: $zindex-layer-5 !important;
+}
+.tt-suggestion {
+  overflow: hidden;
+  cursor: pointer;
+  padding: 10px 15px;
+  color: $gray-75;
+  + .tt-suggestion {
+    border-top: 1px solid $gray-0;
+  }
+  strong {
+    color: $gray-50;
+  }
+  p {
+    margin: 0;
+  }
+  .tt-name {
+    float: left;
+  }
+  .tt-label {
+    float: right;
+    @include fsRem(12px);
+    line-height: lh($line-height-base, 12px);
+    color: $gray-25;
+    font-weight: $font-weight-bold;
+    text-transform: uppercase;
+  }
+}
+.tt-suggestion.tt-cursor {
+  background: $orange-50;
 }
