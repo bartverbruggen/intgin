@@ -1,16 +1,16 @@
 // Functions
 //
 // Based on the relative-size function from Stitch, http://stitchcss.com/
-@function relative-size( $target, $context: $font-size-base, $unit: rem ) {
+@function relative-size( $target, $context: $font-size-med, $unit: rem ) {
   @return #{$target/$context}$unit;
 }
-@function rs( $target, $context: $font-size-base, $unit: rem ) {
+@function rs( $target, $context: $font-size-med, $unit: rem ) {
   @return relative-size($target, $context, $unit);
 }
 @function fs( $target, $context: $font-size-root, $unit: rem ) {
   @return #{round(($target/$context)*1000)/1000}$unit;
 }
-@function lh( $target, $context: $font-size-base ) {
+@function lh( $target, $context: $font-size-med ) {
   @return round(($target/$context)*1000)/1000;
 }
 
@@ -40,6 +40,25 @@
   font-size: fs($font-size);
 }
 
+@mixin background-sliding($color, $color-alt: transparent, $position: down) {
+  background-image: linear-gradient(to bottom, $color 0%, $color 50%, $color-alt 50%, $color-alt 100%);
+  background-size: 100% 200%;
+  @if $position == down {
+    background-position: 0 100%;
+  }
+  @if $position == up {
+    background-position: 0 -100%;
+  }
+  @include transitions((background, color));
+  &:hover,
+  &:focus,
+  &:active {
+    background-position: 0 0;
+    color: invert($color);
+    border-color: $color;
+  }
+}
+
 @mixin link-variant($link: $color-link, $hover: null, $visited: null) {
   @if $visited == null {
     $visited: $link;
@@ -57,3 +76,5 @@
     color: $hover;
   }
 }
+
+

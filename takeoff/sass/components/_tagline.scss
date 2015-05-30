@@ -1,0 +1,14 @@
+.tagline {
+  float: right;
+  text-align: center;
+}
+.tagline__headline {
+  @include fsRem(24px);
+  text-transform: uppercase;
+}
+.tagline__byline {
+  color: $gray-50;
+  @include fsRem(22px);
+  font-family: $font-family-serif;
+  font-style: italic;
+}

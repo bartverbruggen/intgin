@@ -3,29 +3,62 @@
 }
 .block {
   display: block;
+  & + & {
+    margin-top: $rh-sml;
+  }
+
   &--panel,
-  &--bg,
   &--indented {
-    padding: $rh-med;
+    padding: $rh-sml;
     @include breakpoint(map-get($breakpoints, lrg)){
-      padding: $rh-lrg;
+      padding: $rh-med;
     };
   }
-  &--bg {
-    // color: $white;
-    // a {
-    //   color: inherit;
-    // }
-  }
   &--panel {
-    background: $gray-0;
-    border: 1px solid $gray-25;
+    background: $white;
   }
   &--indented {
     padding: 0;
     @include breakpoint(map-get($breakpoints, med)){
       padding: $rh-med;
     };
+  }
+
+  &--bg {
+    padding: $rh-sml;
+    background: $gray-0;
+  }
+
+  &--step {
+    position: relative;
+    background: lighten($gray-0, 5%);
+    &:after {
+      content: '';
+      position: absolute;
+      right: 5%;
+      top: 0;
+      display: block;
+      width: 0;
+      border: 40px solid transparent;
+    }
+    .heading {
+      color: $color-text;
+    }
+    & + & {
+      margin-top: 0;
+    }
+    &:nth-child(2) {
+      background: $gray-0;
+      &:after {
+        border-top-color: lighten($gray-0, 5%);
+      }
+    }
+    &:nth-child(3) {
+      background: darken($gray-0, 5%);
+      &:after {
+        border-top-color: $gray-0;
+      }
+    }
   }
 
   // Status messages
@@ -41,8 +74,48 @@
     border-color: map-get($notice-colors, 'danger');
     color: lighten(map-get($notice-colors, 'danger'), 25%);
   }
+
+  &--newsletter,
+  &--contact,
+  &--registration {
+    .form {
+      margin-bottom: 0;
+      @include breakpoint(map-get($breakpoints, med)) {
+        margin-top: $rh-sml;
+      }
+    }
+  }
+  &--newsletter {
+    .grid--bp-med__8 & {
+      .grid__item {
+        @extend .grid--bp-med__8;
+      }
+    }
+    .grid--bp-med__6 & {
+      .grid__item {
+        @extend .grid--bp-med__10;
+      }
+    }
+  }
+  &--contact,
+  &--registration {
+    .grid--bp-med__8 & {
+      @extend .grid--bp-med__8;
+    }
+  }
 }
 
-.block + .block {
-  margin-top: $rh-sml;
+
+.block__header {
+  margin-bottom: $rh-xsm;
+  h1, h2, h3, h4 {
+    margin-bottom: 0;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.block__img {
+  text-align: center;
 }

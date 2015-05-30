@@ -1,0 +1,5 @@
+{
+    "theme.fuel.name": "Wilma",
+    "template.theme": "wilma",
+    "template.smarty.plugin.cms": "%path%/src/ride/web/template/smarty/plugin"
+}

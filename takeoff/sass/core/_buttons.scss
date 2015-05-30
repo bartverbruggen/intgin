@@ -2,14 +2,13 @@
   @include button-variant($white, $gray-75, $gray-75);
   @include transitions((background, border));
   display: inline-block;
-  padding: 15px 20px;
-  border: none;
-  border-radius: $border-radius-base;
-  color: $white;
-  line-height: 1;
+  padding: $rh-xxs $rh-sml;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: $border-radius-med;
+  // line-height: 1;
   font-weight: $font-weight-bold;
-  text-transform: uppercase;
-  letter-spacing: .1em;
+  cursor: pointer;
 
   &:active,
   &.active {
@@ -33,18 +32,16 @@
 
   // Modifiers
   &--default {
-    @include button-variant($color-text, $white, $gray-25);
-    &:hover,
-    &:focus,
-    &:active,
-    &.active,
-    .open > &.dropdown-toggle {
-      background-color: $gray-0;
-    }
+    @include button-variant($white, $color-link, $color-link);
   }
-  &--brand,
   &--primary {
     @include button-variant($white, $color-brand-primary, $color-brand-primary);
+  }
+  &--novecento {
+    @include button-variant($white, $blue-50, $blue-50);
+  }
+  &--transit {
+    @include button-variant($white, $orange-50, $orange-50);
   }
   @each $type, $color in $notice-colors {
     &--#{$type} {
@@ -52,8 +49,42 @@
     }
   }
 
+  &--ghost {
+    @include button-variant($color-link, transparent, $color-link);
+    border-width: 1px;
+    @include background-sliding($color-link);
+
+    &-novecento {
+      @include button-variant($blue-50, transparent, $blue-50);
+    }
+    &-transit {
+      @include button-variant($orange-50, transparent, $orange-50);
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $white;
+    }
+
+  }
+  &--ghost-inv {
+    @include button-variant($white, transparent, $gray-25);
+    border-width: 1px;
+    @include background-sliding($white);
+  }
+
+  &--arrow {
+    &:after {
+      content: '\f105';
+      font-family: $font-family-icons;
+      margin-left: $rh-xsm;
+      display: inline-block;
+    }
+  }
+
   &--link {
-    @include fsRem($font-size-base);
+    @include fsRem($font-size-med);
     @extend a;
     background: none;
     border: none;
@@ -69,17 +100,13 @@
     }
   }
 
-  &--large {
-    @include fsRem($font-size-large);
+  &--lrg {
+    @include fsRem(22px);
     padding: 10px 15px;
   }
 
-  &--small {
-    padding: 2px 10px;
-  }
-
   &--xsmall {
-    @include fsRem($font-size-small);
+    @include fsRem($font-size-sml);
     padding: 0px 10px;
   }
 

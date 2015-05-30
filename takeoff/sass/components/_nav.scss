@@ -16,31 +16,94 @@
   &--service {
     @extend %ext-default-nav;
     float: right;
-    margin-bottom: 15px;
+    margin-top: $rh-med;
     li + li {
-      &:before {
-        content: '\2022';
-        display: inline-block;
-        margin: 0 5px;
+      margin-left: $rh-med;
+    }
+    a {
+      text-decoration: underline;
+      &:hover,
+      &.active {
+        text-decoration: none;
+        color: $gray-50;
       }
     }
   } // end .-service
 
   &--main {
     @extend %ext-default-nav;
-    @include fsRem(16px);
-    font-weight: $font-weight-bold;
-    clear: right;
-    float: right;
+    float: left;
+    clear: both;
+    @include fsRem($font-size-xxl);
+    font-family: $font-family-serif;
+    font-style: italic;
+    text-transform: lowercase;
+    position: relative;
+    li + li {
+      margin-left: ($rh-xsm - 4px);
+    }
+    ul {
+      ul {
+        position: absolute;
+        width: 100%;
+        @include fsRem($font-size-lrg);
+        text-transform: none;
+        &:after {
+          content: '';
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          display: block;
+          border-bottom: 1px solid $gray-0;
+        }
+        li {
+          margin: 0 $rh-sml;
+        }
+        a {
+          padding: $rh-xsm 0;
+        }
+      }
+    }
     a {
+      @include link-variant($color-text);
       display: block;
-      color: black;
-      background: gray;
-      padding: 8px 10px;
+      padding: $rh-sml $rh-xsm;
+      @include background-sliding($white, transparent, up);
       &:hover,
-      &:focus,
       &.active {
-        color: cyan;
+        color: $gray-50;
+        background-position: 0 0;
+      }
+      &.nav__link--novecento3 {
+        &:hover,
+        &.active {
+          color: $blue-50;
+        }
+      }
+      &.nav__link--transit3 {
+        &:hover,
+        &.active {
+          color: $orange-50;
+        }
+      }
+      @include breakpoint(map-get($breakpoints, lrg)) {
+        padding: $rh-sml $rh-med;
+      }
+    }
+
+    .nav__link--novecento3 + ul {
+      a:hover,
+      a.active {
+        border-bottom: 3px solid $blue-50;
+        color: $blue-50;
+      }
+    }
+    .nav__link--transit3 + ul {
+      a:hover,
+      a.active {
+        border-bottom: 3px solid $orange-50;
+        color: $orange-50;
       }
     }
   } // end .-main
@@ -118,7 +181,7 @@
     }
   }
 
-  .flyout-close {
+  .flyout__close {
     display: block;
     text-align: right;
     padding: 5px;

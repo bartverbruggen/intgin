@@ -1,8 +1,8 @@
-<div class="detail widget widget-content-detail block {$app.cms.properties->getWidgetProperty('style.container')}" id="widget-{$app.cms.widget}">
+<div class="detail block {$app.cms.properties->getWidgetProperty('style.container')}" id="widget-{$app.cms.widget}">
     <div class="content clearfix">
         {if $content->image}
         <div class="block__image">
-            <img src="{image src=$content->image width=600 height=600 transformation="crop"}" class="image image--responsive" />
+            <img src="{image src=$content->image width=1200 height=600 transformation="crop"}" class="image image--responsive" />
         </div>
         {/if}
         {if !$properties->getTitle()}
@@ -14,15 +14,16 @@
 
 {if $content->data->getMixes}
     <div class="block">
+        <h2>{'label.perfect.serves'|translate}</h2>
         {foreach $content->data->getMixes as $mix}
             <div class="grid grid--bp-med-2-col">
                 {if $mix->getTonic()}
                     <div class="grid__item">
-                        <div class="block">
+                        <div class="block text--center">
                             {$tonic = $mix->getTonic()}
                             <div class="block__header">
                                 <div class="block__title">
-                                    <h2>{$tonic->title}</h2>
+                                    <h3>{$tonic->title}</h3>
                                 </div>
                             </div>
                             <div class="block__img">
@@ -36,10 +37,10 @@
                 {if $mix->getGarnish()}
                     <div class="grid__item">
                         {foreach $mix->getGarnish() as $garnish}
-                            <div class="block">
+                            <div class="block text--center">
                                 <div class="block__header">
                                     <div class="block__title">
-                                        <h2>{$garnish->title}</h2>
+                                        <h3>{$garnish->title}</h3>
                                     </div>
                                 </div>
                                 <div class="block__img">

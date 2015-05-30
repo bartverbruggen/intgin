@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "47e254588d4f204170ef2ccaf247e3bc",
+    "hash": "ef7ee0cf8ec47c4f935488a19e4ed316",
     "packages": [
         {
             "name": "mandrill/mandrill",
@@ -159,12 +159,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/all-ride/ride-app.git",
-                "reference": "99258bfa8fd6bc9ab923c97e3a25d6b30decd13d"
+                "reference": "18e1961fb3ef7ea8b7b72859881cddc857ae3754"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-app/zipball/99258bfa8fd6bc9ab923c97e3a25d6b30decd13d",
-                "reference": "99258bfa8fd6bc9ab923c97e3a25d6b30decd13d",
+                "url": "https://api.github.com/repos/all-ride/ride-app/zipball/18e1961fb3ef7ea8b7b72859881cddc857ae3754",
+                "reference": "18e1961fb3ef7ea8b7b72859881cddc857ae3754",
                 "shasum": ""
             },
             "require": {
@@ -194,12 +194,12 @@
                     "email": "joris@statik.be"
                 },
                 {
-                    "name": "Ward brems",
+                    "name": "Ward Brems",
                     "email": "ward@statik.be"
                 }
             ],
             "description": "Base integration of the Ride framework libraries",
-            "time": "2015-04-20 08:55:33"
+            "time": "2015-05-13 14:01:25"
         },
         {
             "name": "ride/app-api",
@@ -447,7 +447,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-app-mail/zipball/97dee3f91d0b818d54b1006ff31fa89ad01dbbf6",
+                "url": "https://api.github.com/repos/all-ride/ride-app-mail/zipball/054dad468163b935c652cd04ae1bcc7b15075de5",
                 "reference": "97dee3f91d0b818d54b1006ff31fa89ad01dbbf6",
                 "shasum": ""
             },
@@ -479,7 +479,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-app-mail-mandrill/zipball/61e59d6e63be00ecee7a4fa7d0f3c464584e9c21",
+                "url": "https://api.github.com/repos/all-ride/ride-app-mail-mandrill/zipball/9bb8bb553dce6c54106bd8ea42f13f1feb7e9c4c",
                 "reference": "61e59d6e63be00ecee7a4fa7d0f3c464584e9c21",
                 "shasum": ""
             },
@@ -543,12 +543,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/all-ride/ride-app-media.git",
-                "reference": "2498cdeb8d78d52f330ffb6d98e03d060b245a34"
+                "reference": "dec7b99283724a616dd3de9a791cfa15d6de8175"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-app-media/zipball/2498cdeb8d78d52f330ffb6d98e03d060b245a34",
-                "reference": "2498cdeb8d78d52f330ffb6d98e03d060b245a34",
+                "url": "https://api.github.com/repos/all-ride/ride-app-media/zipball/dec7b99283724a616dd3de9a791cfa15d6de8175",
+                "reference": "dec7b99283724a616dd3de9a791cfa15d6de8175",
                 "shasum": ""
             },
             "require": {
@@ -576,7 +576,7 @@
                 }
             ],
             "description": "Integration of the media library for a Ride application.",
-            "time": "2014-12-15 17:36:47"
+            "time": "2015-05-20 09:27:57"
         },
         {
             "name": "ride/app-orm",
@@ -631,12 +631,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/all-ride/ride-app-orm-asset.git",
-                "reference": "805229788eefccafb9a9f5788127e0ff32f7f51e"
+                "reference": "eec711b81f7092d4a9de169b4acb5c50cc1fc718"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-app-orm-asset/zipball/805229788eefccafb9a9f5788127e0ff32f7f51e",
-                "reference": "805229788eefccafb9a9f5788127e0ff32f7f51e",
+                "url": "https://api.github.com/repos/all-ride/ride-app-orm-asset/zipball/eec711b81f7092d4a9de169b4acb5c50cc1fc718",
+                "reference": "eec711b81f7092d4a9de169b4acb5c50cc1fc718",
                 "shasum": ""
             },
             "require": {
@@ -672,7 +672,7 @@
                 }
             ],
             "description": "Assets model for the Ride ORM",
-            "time": "2015-04-10 06:46:56"
+            "time": "2015-05-20 10:56:18"
         },
         {
             "name": "ride/app-orm-taxonomy",
@@ -800,7 +800,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-app-validation/zipball/3e39db11e522fa4210fcfcde31efd6814bb1ed64",
+                "url": "https://api.github.com/repos/all-ride/ride-app-validation/zipball/020c8cf1408d01a669b3de242d03f220c6da57fa",
                 "reference": "3e39db11e522fa4210fcfcde31efd6814bb1ed64",
                 "shasum": ""
             },
@@ -1226,12 +1226,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/all-ride/ride-lib-cms.git",
-                "reference": "7764c1b688d41fdb0366373cf6bb2a7db94e61d4"
+                "reference": "e4fd6f5fe7a70d44e504769ffa066909db4230a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-lib-cms/zipball/7764c1b688d41fdb0366373cf6bb2a7db94e61d4",
-                "reference": "7764c1b688d41fdb0366373cf6bb2a7db94e61d4",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-cms/zipball/e4fd6f5fe7a70d44e504769ffa066909db4230a1",
+                "reference": "e4fd6f5fe7a70d44e504769ffa066909db4230a1",
                 "shasum": ""
             },
             "require": {
@@ -1263,7 +1263,7 @@
                 }
             ],
             "description": "CMS library of the Ride framework",
-            "time": "2015-04-28 10:29:44"
+            "time": "2015-05-24 19:28:27"
         },
         {
             "name": "ride/lib-common",
@@ -1307,12 +1307,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/all-ride/ride-lib-config.git",
-                "reference": "0b7ca80f580bbc48fe7e74b2731a664dfade95cb"
+                "reference": "f8825330a24d412dca962a9a39bb49b78c27e37d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-lib-config/zipball/0b7ca80f580bbc48fe7e74b2731a664dfade95cb",
-                "reference": "0b7ca80f580bbc48fe7e74b2731a664dfade95cb",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-config/zipball/f8825330a24d412dca962a9a39bb49b78c27e37d",
+                "reference": "f8825330a24d412dca962a9a39bb49b78c27e37d",
                 "shasum": ""
             },
             "require": {
@@ -1338,7 +1338,7 @@
                 }
             ],
             "description": "Configuration library of the Ride framework",
-            "time": "2015-01-20 10:21:53"
+            "time": "2015-05-11 22:38:45"
         },
         {
             "name": "ride/lib-database",
@@ -1422,12 +1422,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/all-ride/ride-lib-encryption.git",
-                "reference": "3ff0061666e6e1e86f4f249a70ec8fb221ceb816"
+                "reference": "3bb80b0d9d6e5f7a903f3d77b22e71043876afc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-lib-encryption/zipball/3ff0061666e6e1e86f4f249a70ec8fb221ceb816",
-                "reference": "3ff0061666e6e1e86f4f249a70ec8fb221ceb816",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-encryption/zipball/3bb80b0d9d6e5f7a903f3d77b22e71043876afc3",
+                "reference": "3bb80b0d9d6e5f7a903f3d77b22e71043876afc3",
                 "shasum": ""
             },
             "type": "library",
@@ -1450,7 +1450,7 @@
                 }
             ],
             "description": "Encryption library of the Ride framework",
-            "time": "2014-02-21 11:53:58"
+            "time": "2015-05-11 01:59:09"
         },
         {
             "name": "ride/lib-event",
@@ -1497,12 +1497,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/all-ride/ride-lib-form.git",
-                "reference": "d37edfbb0700d4b7fd7ea528f45f72e65e93cc5b"
+                "reference": "517ec825e209cd9617ee80a7cefde795e44df98d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-lib-form/zipball/d37edfbb0700d4b7fd7ea528f45f72e65e93cc5b",
-                "reference": "d37edfbb0700d4b7fd7ea528f45f72e65e93cc5b",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-form/zipball/dd2c61c24c45275f7997c41d383e88376e7d1962",
+                "reference": "517ec825e209cd9617ee80a7cefde795e44df98d",
                 "shasum": ""
             },
             "require": {
@@ -1534,7 +1534,7 @@
                 }
             ],
             "description": "Form library of the Ride framework",
-            "time": "2015-04-29 08:45:48"
+            "time": "2015-05-06 11:23:28"
         },
         {
             "name": "ride/lib-generator",
@@ -1625,7 +1625,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-lib-http/zipball/351b61d7a3587ccdf2661ede711c9809d9b2b183",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-http/zipball/1ebb81dc05878656be77ce532130a3053579caeb",
                 "reference": "351b61d7a3587ccdf2661ede711c9809d9b2b183",
                 "shasum": ""
             },
@@ -1817,7 +1817,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-lib-mail/zipball/20fd66aec0c96397f42a1a50fe1a7ba9285d6932",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-mail/zipball/eacb257280ea1e53e15454c3b47bbb2bfb6b6c9e",
                 "reference": "20fd66aec0c96397f42a1a50fe1a7ba9285d6932",
                 "shasum": ""
             },
@@ -1857,7 +1857,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-lib-mail-mandrill/zipball/957b0f9e4e0998020105e9336ee9e7f521544daf",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-mail-mandrill/zipball/1c0a81b6851fa906547581481f0ebca7033dc9c9",
                 "reference": "957b0f9e4e0998020105e9336ee9e7f521544daf",
                 "shasum": ""
             },
@@ -1933,12 +1933,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/all-ride/ride-lib-media.git",
-                "reference": "711a3161a371057d94f1a7f36d136cdb5f4fad5e"
+                "reference": "0d46f83504eee306eda2f0bf332b4df610dd6b18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-lib-media/zipball/711a3161a371057d94f1a7f36d136cdb5f4fad5e",
-                "reference": "711a3161a371057d94f1a7f36d136cdb5f4fad5e",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-media/zipball/0d46f83504eee306eda2f0bf332b4df610dd6b18",
+                "reference": "0d46f83504eee306eda2f0bf332b4df610dd6b18",
                 "shasum": ""
             },
             "require": {
@@ -1964,7 +1964,47 @@
                 }
             ],
             "description": "Library for abstraction of media services in the Ride framework",
-            "time": "2015-03-03 12:47:19"
+            "time": "2015-05-20 08:59:20"
+        },
+        {
+            "name": "ride/lib-minifier",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-lib-minifier.git",
+                "reference": "9e241624ab4339a0000fa5ff318ae6be4e79fbd6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-minifier/zipball/9e241624ab4339a0000fa5ff318ae6be4e79fbd6",
+                "reference": "9e241624ab4339a0000fa5ff318ae6be4e79fbd6",
+                "shasum": ""
+            },
+            "require": {
+                "ride/lib-image": ">=0.1.0",
+                "ride/lib-system": ">=0.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\library\\minifier\\": [
+                        "src/",
+                        "test/src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Minifier library of the Ride framework",
+            "time": "2015-02-08 12:07:43"
         },
         {
             "name": "ride/lib-mvc",
@@ -2013,12 +2053,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/all-ride/ride-lib-orm.git",
-                "reference": "aaf610df3cd133662eb22fb0dd812a1305a31983"
+                "reference": "41fcc704f03ed539e1b6b85b9c289338d71a46d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-lib-orm/zipball/aaf610df3cd133662eb22fb0dd812a1305a31983",
-                "reference": "aaf610df3cd133662eb22fb0dd812a1305a31983",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-orm/zipball/41fcc704f03ed539e1b6b85b9c289338d71a46d2",
+                "reference": "41fcc704f03ed539e1b6b85b9c289338d71a46d2",
                 "shasum": ""
             },
             "require": {
@@ -2048,7 +2088,7 @@
                 }
             ],
             "description": "ORM library of the Ride framework.",
-            "time": "2015-04-17 14:53:46"
+            "time": "2015-05-19 10:25:41"
         },
         {
             "name": "ride/lib-reflection",
@@ -2170,12 +2210,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/all-ride/ride-lib-security-oauth.git",
-                "reference": "456d89d79c2330a09311340492264607e0e4a4a7"
+                "reference": "b623be1d04dd426369d51b9487f9e008ff31c9b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-lib-security-oauth/zipball/456d89d79c2330a09311340492264607e0e4a4a7",
-                "reference": "456d89d79c2330a09311340492264607e0e4a4a7",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-security-oauth/zipball/b623be1d04dd426369d51b9487f9e008ff31c9b9",
+                "reference": "b623be1d04dd426369d51b9487f9e008ff31c9b9",
                 "shasum": ""
             },
             "require": {
@@ -2203,7 +2243,7 @@
                 }
             ],
             "description": "OAuth implementation for the security model of the Ride framework",
-            "time": "2015-04-28 14:17:05"
+            "time": "2015-05-06 14:09:41"
         },
         {
             "name": "ride/lib-system",
@@ -2359,7 +2399,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-lib-validation/zipball/6cb40f7a8d1487c871daa824ae9b96ecb0433f35",
+                "url": "https://api.github.com/repos/all-ride/ride-lib-validation/zipball/e163ace0f645195989460e911b72bf6d5db6a307",
                 "reference": "6cb40f7a8d1487c871daa824ae9b96ecb0433f35",
                 "shasum": ""
             },
@@ -2596,12 +2636,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/all-ride/ride-theme-asphalt.git",
-                "reference": "647ad9aa11daeaf5f44cc9d245ee833357b2abb9"
+                "reference": "f924d9629b6021a4faef9a1927456d3b6f48201b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-theme-asphalt/zipball/647ad9aa11daeaf5f44cc9d245ee833357b2abb9",
-                "reference": "647ad9aa11daeaf5f44cc9d245ee833357b2abb9",
+                "url": "https://api.github.com/repos/all-ride/ride-theme-asphalt/zipball/8874b2c21a207206947dcc3013233ee152600a5a",
+                "reference": "f924d9629b6021a4faef9a1927456d3b6f48201b",
                 "shasum": ""
             },
             "require": {
@@ -2634,7 +2674,7 @@
                 }
             ],
             "description": "Asphalt theme for the base web application of the Ride framework",
-            "time": "2015-04-30 07:10:42"
+            "time": "2015-05-21 12:45:52"
         },
         {
             "name": "ride/theme-asphalt-cms",
@@ -2642,12 +2682,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/all-ride/ride-theme-asphalt-cms.git",
-                "reference": "5a31bfc8912f5ec6d7f4eac40831bb8150e1978d"
+                "reference": "8c2ff19c44f2615d88d975f51ea5fbe30d0f1831"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-theme-asphalt-cms/zipball/5a31bfc8912f5ec6d7f4eac40831bb8150e1978d",
-                "reference": "5a31bfc8912f5ec6d7f4eac40831bb8150e1978d",
+                "url": "https://api.github.com/repos/all-ride/ride-theme-asphalt-cms/zipball/99e294d263a87d64f9db12dc838a6af528dd2525",
+                "reference": "8c2ff19c44f2615d88d975f51ea5fbe30d0f1831",
                 "shasum": ""
             },
             "require": {
@@ -2678,7 +2718,7 @@
                 }
             ],
             "description": "Asphalt theme for the CMS application of the Ride framework",
-            "time": "2015-04-28 11:54:37"
+            "time": "2015-05-21 12:10:53"
         },
         {
             "name": "ride/wba-assets",
@@ -2686,12 +2726,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/all-ride/ride-wba-assets.git",
-                "reference": "5ec72532d766b350f583d2aee23942d47a99dc3f"
+                "reference": "5e22a5e6ba2cbc2fbb5e2a387aef73d1a74b0f45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-wba-assets/zipball/5ec72532d766b350f583d2aee23942d47a99dc3f",
-                "reference": "5ec72532d766b350f583d2aee23942d47a99dc3f",
+                "url": "https://api.github.com/repos/all-ride/ride-wba-assets/zipball/db12135c72075dcf01dff5d9c38334ee6456a24f",
+                "reference": "5e22a5e6ba2cbc2fbb5e2a387aef73d1a74b0f45",
                 "shasum": ""
             },
             "require": {
@@ -2730,7 +2770,7 @@
                 }
             ],
             "description": "Assets library for the Ride base application",
-            "time": "2015-04-09 14:24:42"
+            "time": "2015-05-05 09:07:19"
         },
         {
             "name": "ride/wba-cms-assets",
@@ -2738,12 +2778,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/all-ride/ride-wba-cms-assets.git",
-                "reference": "d21cd8a19a1aa0bff6060424f5a87b2bb5eb83d0"
+                "reference": "8d9045efb57b2a5a1162f68852b8512074a60059"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-wba-cms-assets/zipball/d21cd8a19a1aa0bff6060424f5a87b2bb5eb83d0",
-                "reference": "d21cd8a19a1aa0bff6060424f5a87b2bb5eb83d0",
+                "url": "https://api.github.com/repos/all-ride/ride-wba-cms-assets/zipball/8d9045efb57b2a5a1162f68852b8512074a60059",
+                "reference": "8d9045efb57b2a5a1162f68852b8512074a60059",
                 "shasum": ""
             },
             "require": {
@@ -2772,7 +2812,7 @@
                 }
             ],
             "description": "CMS integration of the assets module",
-            "time": "2015-04-08 12:00:32"
+            "time": "2015-05-12 10:03:11"
         },
         {
             "name": "ride/web",
@@ -2869,12 +2909,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/all-ride/ride-web-base.git",
-                "reference": "79e8803dfa4c63ff7688cebd0c6ae78e73e2d9d7"
+                "reference": "c06f78052da6697d516c99938543d3cc1835f079"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-web-base/zipball/79e8803dfa4c63ff7688cebd0c6ae78e73e2d9d7",
-                "reference": "79e8803dfa4c63ff7688cebd0c6ae78e73e2d9d7",
+                "url": "https://api.github.com/repos/all-ride/ride-web-base/zipball/d8d6403114d9a6fed33583ea9618d21b138d4d51",
+                "reference": "c06f78052da6697d516c99938543d3cc1835f079",
                 "shasum": ""
             },
             "require": {
@@ -2916,7 +2956,7 @@
                 }
             ],
             "description": "Base web application of the Ride framework",
-            "time": "2015-04-08 12:52:46"
+            "time": "2015-05-20 10:42:25"
         },
         {
             "name": "ride/web-cms",
@@ -2928,7 +2968,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-web-cms/zipball/300951eb4655b144115c549ac3b14b90692c89fc",
+                "url": "https://api.github.com/repos/all-ride/ride-web-cms/zipball/e4e6ae0389b3879f32a9f2dd33df69f3ed859394",
                 "reference": "300951eb4655b144115c549ac3b14b90692c89fc",
                 "shasum": ""
             },
@@ -2982,12 +3022,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/all-ride/ride-web-cms-layouts.git",
-                "reference": "d45ccdc213189efed3f095ad27213fd3c215daa6"
+                "reference": "b2ced51a833097c8545bd59ff192662565fdaeba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-web-cms-layouts/zipball/d45ccdc213189efed3f095ad27213fd3c215daa6",
-                "reference": "d45ccdc213189efed3f095ad27213fd3c215daa6",
+                "url": "https://api.github.com/repos/all-ride/ride-web-cms-layouts/zipball/b2ced51a833097c8545bd59ff192662565fdaeba",
+                "reference": "b2ced51a833097c8545bd59ff192662565fdaeba",
                 "shasum": ""
             },
             "require": {
@@ -3012,7 +3052,7 @@
                 }
             ],
             "description": "Base layouts for the CMS application of the Ride framework",
-            "time": "2015-04-20 12:14:11"
+            "time": "2015-05-18 10:28:13"
         },
         {
             "name": "ride/web-cms-orm",
@@ -3020,12 +3060,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/all-ride/ride-web-cms-orm.git",
-                "reference": "76f6614aa765a9f7309e7d7887d5aa680316f97e"
+                "reference": "bb14cdae1760bd007dcbfa44f5015d2f610536f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-web-cms-orm/zipball/76f6614aa765a9f7309e7d7887d5aa680316f97e",
-                "reference": "76f6614aa765a9f7309e7d7887d5aa680316f97e",
+                "url": "https://api.github.com/repos/all-ride/ride-web-cms-orm/zipball/cee90b79240d8b8647b9aa3d4b8b388b1b73abd7",
+                "reference": "bb14cdae1760bd007dcbfa44f5015d2f610536f9",
                 "shasum": ""
             },
             "require": {
@@ -3038,7 +3078,7 @@
                 "ride/lib-http": ">=0.2.1",
                 "ride/lib-i18n": ">=0.1.0",
                 "ride/lib-mvc": ">=0.2.1",
-                "ride/lib-orm": ">=0.4.0",
+                "ride/lib-orm": ">=0.8.1",
                 "ride/lib-router": ">=0.1.3",
                 "ride/lib-template": ">=0.3.0",
                 "ride/lib-validation": ">=0.4.0",
@@ -3067,7 +3107,7 @@
                 }
             ],
             "description": "ORM integration with the CMS application of the Ride framework",
-            "time": "2015-04-29 09:32:45"
+            "time": "2015-05-20 14:09:21"
         },
         {
             "name": "ride/web-cms-search",
@@ -3117,16 +3157,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/all-ride/ride-web-cms-security.git",
-                "reference": "7d0f21aa05a3104fa26ec10c9594cbf6b378d2a4"
+                "reference": "5e61cbde442f74c7180cd2ff96dc15209086f342"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-web-cms-security/zipball/7d0f21aa05a3104fa26ec10c9594cbf6b378d2a4",
-                "reference": "7d0f21aa05a3104fa26ec10c9594cbf6b378d2a4",
+                "url": "https://api.github.com/repos/all-ride/ride-web-cms-security/zipball/5e61cbde442f74c7180cd2ff96dc15209086f342",
+                "reference": "5e61cbde442f74c7180cd2ff96dc15209086f342",
                 "shasum": ""
             },
             "require": {
                 "ride/lib-cms": ">=0.15.0",
+                "ride/lib-form": ">=0.13.0",
                 "ride/lib-http": ">=0.2.1",
                 "ride/lib-i18n": ">=0.1.0",
                 "ride/lib-mail": ">=0.2.0",
@@ -3158,7 +3199,7 @@
                 }
             ],
             "description": "Security widgets for the CMS application of the Ride framework",
-            "time": "2014-12-11 13:31:35"
+            "time": "2015-05-07 11:25:10"
         },
         {
             "name": "ride/web-cms-vcs",
@@ -3212,18 +3253,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/all-ride/ride-web-cms-widgets.git",
-                "reference": "0ef99c392ddb48b9393dda6efdc67eaf6083ce51"
+                "reference": "c37698aa99c7c7c003ee6189918fdf359a230a11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-web-cms-widgets/zipball/0ef99c392ddb48b9393dda6efdc67eaf6083ce51",
-                "reference": "0ef99c392ddb48b9393dda6efdc67eaf6083ce51",
+                "url": "https://api.github.com/repos/all-ride/ride-web-cms-widgets/zipball/c37698aa99c7c7c003ee6189918fdf359a230a11",
+                "reference": "c37698aa99c7c7c003ee6189918fdf359a230a11",
                 "shasum": ""
             },
             "require": {
                 "ride/lib-cms": ">=0.16.0",
                 "ride/lib-common": ">=0.4.0",
-                "ride/lib-form": ">=0.7.2",
+                "ride/lib-form": ">=0.13.0",
                 "ride/lib-i18n": ">=0.1.0",
                 "ride/lib-validation": ">=0.1.0",
                 "ride/lib-widget": ">=0.1.1",
@@ -3256,7 +3297,7 @@
                 }
             ],
             "description": "Base widget for the CMS application of the Ride framework",
-            "time": "2015-04-23 14:17:42"
+            "time": "2015-05-07 11:24:01"
         },
         {
             "name": "ride/web-documentation",
@@ -3305,18 +3346,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/all-ride/ride-web-form.git",
-                "reference": "6fb7beb5d6d79e0242b964cb98c11a05b7928396"
+                "reference": "1b94344acf7e07500ace67598a62573da5ed6dee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-web-form/zipball/6fb7beb5d6d79e0242b964cb98c11a05b7928396",
-                "reference": "6fb7beb5d6d79e0242b964cb98c11a05b7928396",
+                "url": "https://api.github.com/repos/all-ride/ride-web-form/zipball/c984436c084f9edf46ccec1327ab6bd3778404f0",
+                "reference": "1b94344acf7e07500ace67598a62573da5ed6dee",
                 "shasum": ""
             },
             "require": {
                 "ride/app-form": ">=0.2.0",
                 "ride/lib-encryption": ">=0.1.0",
-                "ride/lib-form": ">=0.11.1",
+                "ride/lib-form": ">=0.13.0",
                 "ride/lib-http": ">=0.3.0",
                 "ride/lib-mvc": ">=0.4.0"
             },
@@ -3339,7 +3380,7 @@
                 }
             ],
             "description": "Form library integration in the web interface of the Ride framework",
-            "time": "2014-09-25 11:18:46"
+            "time": "2015-05-06 14:06:22"
         },
         {
             "name": "ride/web-form-taxonomy",
@@ -3562,6 +3603,50 @@
             "time": "2014-04-11 13:35:48"
         },
         {
+            "name": "ride/web-minifier",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-web-minifier.git",
+                "reference": "75ffd9a1bb950d693d556b2f18ab2146e2476dd3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-web-minifier/zipball/75ffd9a1bb950d693d556b2f18ab2146e2476dd3",
+                "reference": "75ffd9a1bb950d693d556b2f18ab2146e2476dd3",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app": ">=0.5.0",
+                "ride/lib-minifier": ">=0.2.0",
+                "ride/web": ">=0.2.0",
+                "ride/web-image": ">=0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ride\\application\\cache\\control\\": [
+                        "src/"
+                    ],
+                    "ride\\service\\MinifierService": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Minifier integration for a Ride web application.",
+            "time": "2015-03-03 13:13:59"
+        },
+        {
             "name": "ride/web-orm",
             "version": "dev-master",
             "source": {
@@ -3571,7 +3656,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-web-orm/zipball/2ecd7ae5b613f4a2517a52cb34666761ad1b9ba4",
+                "url": "https://api.github.com/repos/all-ride/ride-web-orm/zipball/d746c26c21a9a061e9530fb729f5c001b9ec9aa8",
                 "reference": "2ecd7ae5b613f4a2517a52cb34666761ad1b9ba4",
                 "shasum": ""
             },
@@ -3621,7 +3706,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-web-orm-taxonomy/zipball/b65ebe27d92415024161f8c6a0c52283f349e0f2",
+                "url": "https://api.github.com/repos/all-ride/ride-web-orm-taxonomy/zipball/19e196d86ef3300cf9a34dc9964daa792ac9958b",
                 "reference": "b65ebe27d92415024161f8c6a0c52283f349e0f2",
                 "shasum": ""
             },
@@ -3753,12 +3838,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/all-ride/ride-web-security-orm.git",
-                "reference": "bcefd8a968ac8a1701bb8ff0493ac9956827bfef"
+                "reference": "8458e0cebbd70bc668b1534043db532d0602f950"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/all-ride/ride-web-security-orm/zipball/bcefd8a968ac8a1701bb8ff0493ac9956827bfef",
-                "reference": "bcefd8a968ac8a1701bb8ff0493ac9956827bfef",
+                "url": "https://api.github.com/repos/all-ride/ride-web-security-orm/zipball/8458e0cebbd70bc668b1534043db532d0602f950",
+                "reference": "8458e0cebbd70bc668b1534043db532d0602f950",
                 "shasum": ""
             },
             "require": {
@@ -3792,7 +3877,7 @@
                 }
             ],
             "description": "ORM security model integration for a Ride web application.",
-            "time": "2015-02-28 18:23:49"
+            "time": "2015-05-19 09:58:31"
         },
         {
             "name": "ride/web-template",
@@ -3876,6 +3961,38 @@
             "time": "2014-08-26 12:59:02"
         },
         {
+            "name": "ride/web-template-smarty-minifier",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/all-ride/ride-web-template-smarty-minifier.git",
+                "reference": "a9b8ab1ded17b4783f9a4eff5bd0b4a7ef90ef75"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/all-ride/ride-web-template-smarty-minifier/zipball/a9b8ab1ded17b4783f9a4eff5bd0b4a7ef90ef75",
+                "reference": "a9b8ab1ded17b4783f9a4eff5bd0b4a7ef90ef75",
+                "shasum": ""
+            },
+            "require": {
+                "ride/app": ">=0.4.0",
+                "ride/web-minifier": ">=0.3.1"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joris Vandeweerd",
+                    "email": "joris@statik.be"
+                }
+            ],
+            "description": "Smarty template integration for the minifier of the Ride framework",
+            "time": "2015-02-05 19:18:07"
+        },
+        {
             "name": "shark/simple_html_dom",
             "version": "dev-master",
             "source": {
@@ -3928,7 +4045,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/6fb27d5ae4f0816fa63adebe86af8c458e7fe4f4",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/3771ea8d35396bbc5312c70cbc0ca9f93f021ad7",
                 "reference": "d3e26fb679081bc5f4427d86cb8d4275e835e094",
                 "shasum": ""
             },
@@ -3979,7 +4096,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:statikbe/ride-statik-theme-fuel.git",
-                "reference": "63c000f93d094796cc3d541fb0770090ee7320a4"
+                "reference": "e85aeeeaf08bd18897c924daeda47d9378139c4e"
             },
             "require": {
                 "ride/app-template-smarty": ">=0.2.0",
@@ -4014,7 +4131,7 @@
                 }
             ],
             "description": "The default statik theme for the CMS application of the Ride framework",
-            "time": "2015-04-30 06:52:17"
+            "time": "2015-05-08 12:26:18"
         },
         {
             "name": "statik/web-form-wysiwyg-redactor",
@@ -4053,12 +4170,12 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:statikbe/ride-statik-security-oauth.git",
-                "reference": "ee279b73ca787ed42a1ccf433c4ca3dcc6cfe454"
+                "reference": "c55258638d98c153b967c653ce244d90b87e1d6f"
             },
             "require": {
                 "ride/lib-common": ">=0.4.0",
                 "ride/lib-security": ">=0.1.7",
-                "ride/lib-security-oauth": ">=0.2.0",
+                "ride/lib-security-oauth": ">=0.4.0",
                 "ride/lib-validation": ">=0.2.0",
                 "ride/web-security-oauth": ">=0.1.0"
             },
@@ -4080,7 +4197,7 @@
                 }
             ],
             "description": "OAuth implementation for a Statik Ride application.",
-            "time": "2015-03-24 11:50:49"
+            "time": "2015-05-06 10:03:24"
         }
     ],
     "packages-dev": [],
@@ -4092,7 +4209,9 @@
         "smarty/smarty": 20,
         "ride/wba-cms-assets": 20,
         "ride/web-cms-search": 20,
-        "ride/app-mail-mandrill": 20
+        "ride/app-mail-mandrill": 20,
+        "ride/lib-template-smarty": 20,
+        "ride/web-template-smarty-minifier": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -1,0 +1,90 @@
+{
+    "button.add": "Toevoegen",
+    "button.back.to.overview": "Terug naar het overzicht",
+    "button.done": "Klaar",
+    "button.password.reset": "Wachtwoord vergeten?",
+    "button.properties.toggle": "Bekijk eigenschappen",
+    "button.role.add": "Rol toevoegen",
+    "button.roles.manage": "Beheer de rollen",
+    "button.save.image": "Foto opslaan",
+    "button.show": "Tonen",
+    "button.term.add": "Term toevoegen",
+    "button.translations.manage": "Beheer de vertalingen",
+    "button.user.add": "Gebruiker toevoegen",
+    "button.users.manage": "Beheer de gebruikers",
+    "button.vocabulary.add": "Woordenboek toevoegen",
+    "button.vocabulary.manage": "Beheer de woordenboeken",
+    "image.processor.error.resize.value": "Geen geldige breedte en hoogte ingegeven",
+    "image.processor.label.aspect": "Ratio 4:3",
+    "image.processor.label.height": "Originele hoogte van foto",
+    "image.processor.label.instruction": "Instructies",
+    "image.processor.label.instruction1": "Selecteer een regio door met de muis te slepen op de foto",
+    "image.processor.label.instruction2": "Druk 'Foto opslaan'",
+    "image.processor.label.width": "Originele breedte van foto",
+    "label": {
+        "close": "Sluiten",
+        "code": "Code",
+        "confirm.file.delete": "Ben je zeker dat je dit bestand wenst te verwijderen?",
+        "images": "Afbeeldingen",
+        "locales.information": "Je kan de prioriteit van de talen veranderen door ze in de juiste volgorde te slepen.",
+        "name.native": "Naam",
+        "options": "Opties",
+        "or": "Of",
+        "readmore": "Meer lezen",
+        "table": {
+            "confirm.delete": "Ben je zeker dat je de geselecteerde items wenst te verwijderen?",
+            "export": "Exporen naar",
+            "order": "Sorteren op",
+            "rows.page": "/ pagina",
+            "rows.total": "%rows% in totaal",
+            "search": "Zoeken"
+        },
+        "error.size": "Bestand is te groot",
+        "save": "Opslaan"
+    },
+    "title.credentials": "Login gegevens",
+    "title.details": "Details",
+    "title.image.processor": "Afbeelding bijsnijden",
+    "title.locales": "Talen",
+    "title.password.reset": "Nieuw wachtwoord aanvragen",
+    "title.properties": "Eigenschappen",
+    "title.roles": "Rollen",
+    "title.terminal": "Terminal",
+    "title.terms.vocabulary": "Termen van %vocabulary%",
+    "widget": {
+        "assets": {
+            "default": "Default assets",
+            "gallery": "Gallery assets"
+        },
+        "files": {
+            "default": "Default files"
+        },
+        "language.select": {
+            "default": "Default language select"
+        },
+        "menu": {
+            "block": "Block menu",
+            "doormat": "Doormat menu",
+            "inline": "Inline menu",
+            "main": "Main menu",
+            "service": "Service menu"
+        },
+        "orm.overview": {
+            "block": "Block overview",
+            "list": "Simple list overview",
+            "news": "News overview"
+        },
+        "template": {
+            "images.gallery": "Images gallery",
+            "logo": "Logo"
+        },
+        "text": {
+            "clickable": "Clickable text",
+            "clickable.panel": "Clickable text with panel",
+            "ctablock": "CTA block",
+            "hero": "Hero text",
+            "intro": "Intro text",
+            "panel": "Panel block"
+        }
+    }
+}

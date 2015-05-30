@@ -7,7 +7,6 @@
   color: $color;
   background-color: $background;
   border-color: $border;
-  box-shadow: inset -2px -2px 0 darken($border, 15%);
 
   &:visited {
     color: $color;

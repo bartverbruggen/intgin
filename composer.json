@@ -34,7 +34,9 @@
         "ride/cli-app": "*",
         "ride/wba-cms-assets": "dev-master",
         "ride/web-cms-search": "dev-master",
-        "ride/app-mail-mandrill": "dev-master"
+        "ride/app-mail-mandrill": "dev-master",
+        "ride/lib-template-smarty": "dev-master",
+        "ride/web-template-smarty-minifier": "dev-master"
     },
     "repositories": [
         {

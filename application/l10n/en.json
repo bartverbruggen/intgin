@@ -6,8 +6,11 @@
     "label.highlighted.description": "Highlight this item",
     "title.garnish": "Garnish",
     "title.gin": "Gin",
-    "title.gin.mix.suggestion": "Gin Tonic Suggestion",
-    "title.gin.suggestion": "Your mix suggestion for",
+    "title.gin.mix.suggestion": "Perfect serve Suggestion",
+    "title.gin.suggestion": "Your perfect serve suggestion for",
     "title.tonic": "Tonic",
-    "widget.intgin.mix.suggestion": "Gin Suggestion Widget"
+    "widget.intgin.mix.suggestion": "Perfect Serve Suggestion Widget",
+    "label": {
+        "perfect.serves": "Perfect serve(s)"
+    }
 }

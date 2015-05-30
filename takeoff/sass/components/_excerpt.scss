@@ -3,9 +3,14 @@
   display: block;
   color: inherit;
   text-decoration: none;
+
+  &--border {
+    border-bottom: 1px solid $gray-25;
+    padding-bottom: $rh-sml;
+  }
+
   &__header {
-    overflow: hidden;
-    margin-bottom: $rh-med;
+    margin-bottom: $rh-xsm;
     h1, h2, h3, h4 {
       margin-bottom: 0;
     }
@@ -34,14 +39,17 @@
     color: $color-link;
     text-decoration: underline;
   }
+  & + & {
+    margin-top: $rh-sml;
+  }
 }
 
 .excerpt__aside {
   .excerpt__img {
     text-align: center;
-    img {
-      width: auto;
-    }
+    // img {
+    //   width: auto;
+    // }
   }
   @include breakpoint(map-get($breakpoints, sml)){
     float: left;
@@ -82,7 +90,7 @@ a.excerpt {
     color: inherit;
     h1, h2, h3, h4 {
       // color: tomato;
-      text-decoration: none;
+      text-decoration: underline;
     }
     .excerpt__img {
       img {
@@ -94,3 +102,47 @@ a.excerpt {
     }
   }
 }
+
+tr.excerpt {
+  display: table-row;
+}
+
+.excerpt__closed {
+  color: $gray-50;
+  font-style: italic;
+}
+.excerpt__more {
+  margin-top: $rh-sml;
+}
+
+
+// News
+.excerpt--news {
+  background: $gray-0;
+  .excerpt__aside {
+    @include breakpoint(map-get($breakpoints, xsm)){
+      float: left;
+      width: 100px;
+      margin-right: 0;
+      ~ .excerpt__main {
+        margin-left: 100px;
+        min-height: 100px;
+      }
+    };
+    @include breakpoint(map-get($breakpoints, xsm), 'max-width'){
+      margin-bottom: $rh-med;
+    };
+    @include breakpoint(map-get($breakpoints, med)){
+      width: 180px;
+      ~ .excerpt__main {
+        margin-left: 180px;
+        min-height: 180px;
+      }
+    };
+  }
+  .excerpt__main {
+    background: $white;
+    padding: $rh-sml;
+  }
+}
+

@@ -47,9 +47,9 @@ $parameters = array(
         "config" => $willCacheConfig,
     ),
     "environment" => $environment,
-//     "initializers" => array(
-//         new ComposerSystemInitializer(__DIR__ . '/../../composer.lock'),
-//         new ComposerSystemInitializer(__DIR__ . '/../../composer.lock', __DIR__ . '/../../modules'),
-//         new DirectorySystemInitializer(__DIR__ . '/../../modules'),
-//     ),
+    "initializers" => array(
+        new ComposerSystemInitializer(__DIR__ . '/../../composer.lock'),
+        new ComposerSystemInitializer(__DIR__ . '/../../composer.lock', __DIR__ . '/../../modules'),
+        new DirectorySystemInitializer(__DIR__ . '/../../modules'),
+    ),
 );

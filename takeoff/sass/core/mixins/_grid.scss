@@ -14,7 +14,6 @@
   @include cf();
   margin-left:  ($gutter / -2);
   margin-right: ($gutter / -2);
-  margin-bottom: ($gutter / -2);
 }
 
 // Creates a single column
@@ -22,7 +21,6 @@
   @include cf();
   display: block;
   float: left;
-  margin-bottom: ($gutter / 2);
   padding-left: ($gutter / 2);
   padding-right: ($gutter / 2);
   width: round(percentage($index / $columns)*1000)/1000;
