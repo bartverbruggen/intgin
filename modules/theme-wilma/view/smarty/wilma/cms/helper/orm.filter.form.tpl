@@ -20,13 +20,11 @@
                     </label>
                 </div>
             {/if}
-            {foreach $filter.entries as $id => $term}
-                {$label = $term->name}
+            {foreach $filter.options as $id => $label}
                 {$isSelected = $filter.values.$label == $filter.value || (is_array($filter.value) && in_array($filter.values.$label, $filter.value))}
                 <div class="form__checkbox-item">
-                    <label for="{$filterName}{$id}" class="form__label {if $term->getIcon()} form__label--has-image{/if}{if $isSelected} form__label--selected{/if} form__label--checkbox">
+                    <label for="{$filterName}{$id}" class="form__label{if $isSelected} form__label--selected{/if} form__label--checkbox">
                         <input{if $isSelected} checked="checked"{/if} type="{if $isMulti}checkbox{else}radio{/if}" id="{$filterName}{$id}" value="{$id}" name="{$filterName}{if $isMulti}[]{/if}" class="form__checkbox" />
-                        {if $term->getIcon()}<img src="{$app.url.base}/{$term->getIcon()}" alt="{$term->name}" width="30" height="30" class="image">{/if}
                         {$label}
                     </label>
                 </div>

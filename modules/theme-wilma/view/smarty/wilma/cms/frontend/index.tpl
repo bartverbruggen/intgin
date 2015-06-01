@@ -1,9 +1,6 @@
 {extends file="base/index"}
 
-{include 'cms/helper/general'}
-
 {if isset($app.cms.context)}
-
     {block "head_meta" append}
         {$meta = $app.cms.node->getMeta($app.locale)}
         {if $meta}

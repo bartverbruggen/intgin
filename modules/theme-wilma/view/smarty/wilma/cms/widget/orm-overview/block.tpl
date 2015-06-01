@@ -11,32 +11,16 @@
     {if $result}
         {foreach from=$result item="content"}
             {$excerptClass = "excerpt excerpt--{$content->type|strtolower} excerpt--{cycle values="odd,even"}"}
-            {if $content->url}
-                <a href="{$content->url}" class="{$excerptClass}">
-            {else}
-                <div class="{$excerptClass}">
-            {/if}
-                {if $content->image}
-                    <div class="excerpt__aside">
-                        <div class="excerpt__img">
-                            <img src="{image src=$content->image width=125 height=125 transformation="resize"}" class="image image--full-width" />
-                        </div>
-                    </div>
-                {/if}
-                <div class="excerpt__main">
-                    <div class="excerpt__header">
-                        <h3 class="excerpt__title">{$content->title}</h3>
-                    </div>
-                    <div class="excerpt__ct">
-                        {$content->teaser}
-                        {if $content->url}<span class="excerpt__link">{translate key="label.readmore"} &rsaquo;</span>{/if}
-                    </div>
-                </div>
-            {if $content->url}
-                </a>
-            {else}
-                </div>
-            {/if}
+            {*
+                Render the default overview block
+                image
+                title
+                teaser
+                more: boolean for rendering a more link
+                date: renders the date with the default date_format
+                meta: accepts an array with [$class => $copy]
+            *}
+            {call renderOverviewBlock class=$excerptClass image=$content->image title=$content->title url=$content->url teaser=$content->teaser}
         {/foreach}
 
         {call renderPagination pagination=$pagination}
