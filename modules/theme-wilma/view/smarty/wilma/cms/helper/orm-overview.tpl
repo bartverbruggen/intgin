@@ -2,7 +2,7 @@
 
 {function renderTitle title=null}
     {if $title}
-        <h2 class="toc heading--3 {$app.cms.properties->getWidgetProperty('style.title')}">{$title}</h2>
+        <h2 class="toc {$app.cms.properties->getWidgetProperty('style.title')}">{$title}</h2>
     {/if}
 {/function}
 
